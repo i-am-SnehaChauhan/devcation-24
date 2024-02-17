@@ -1,11 +1,13 @@
 import './App.css'
-import Judges from './components/judges'
+import Tracks from './components/Tracks'
+import Judges from './components/Judges'
 function App() {
 
 
   return (
     <>
     <Judges/>
+    <Tracks/>
     </>
   )
 }
