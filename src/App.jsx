@@ -1,6 +1,6 @@
 import './App.css'
 import Tracks from './components/Tracks'
-import Judges from './components/Judges'
+import Judges from './components/judges'
 import Prizes from './components/Prizes'
 function App() {
 
