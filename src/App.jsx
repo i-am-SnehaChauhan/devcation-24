@@ -2,6 +2,7 @@ import './App.css'
 import Tracks from './components/Tracks'
 import Judges from './components/judges'
 import Prizes from './components/Prizes'
+import Sponsors from './components/Sponsors'
 function App() {
 
 
@@ -10,6 +11,7 @@ function App() {
     <Judges/>
     <Tracks/>
     <Prizes/>
+    <Sponsors/>
     </>
   )
 }
