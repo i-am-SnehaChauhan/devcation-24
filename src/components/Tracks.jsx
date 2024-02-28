@@ -3,7 +3,7 @@ import React from "react";
 const Tracks = () => {
     return (
         <>
-        <h1 className="mt-20 font-bold">Tracks</h1>
+        <h1 className="mt-20 font-bold" style={{color:'#2D2B46'}}>Tracks</h1>
         <div className="flex flex-col items-start sm:items-center mt-10 ">
             <div className="sm:w-2/4 bg-blue-200 p-10 rounded-md hover:bg-blue-100 cursor-pointer">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi excepturi natus 
