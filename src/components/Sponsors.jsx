@@ -1,36 +1,47 @@
 import React from "react";
 
-const sponsorsInfo = [
+const sponsorsInfoGold = [
     {
-        image: "devfolio.png",
-        link: "Rs. 10,000 & Goodies from Sponsors!",
-    },
-    {
-        image: "devfolio.png",
-        link: "Rs. 10,000 & Goodies from Sponsors!",
-    },
-    {
-        image: "devfolio.png",
-        link: "Rs. 10,000 & Goodies from Sponsors!",
-    },
-    {
-        image: "devfolio.png",
-        link: "Rs. 10,000 & Goodies from Sponsors!",
-    },
-    {
-        image: "devfolio.png",
-        link: "Rs. 10,000 & Goodies from Sponsors!",
-    },    {
-        image: "devfolio.png",
-        link: "Rs. 10,000 & Goodies from Sponsors!",
+        image: "sponsors/rcigdtuw.jpg",
+        link: "https://sites.google.com/view/rcigdtuw/home",
     }
 
 
 ];
 
+const sponsorsInfoSilver = [
+    {
+        image: "sponsors/polygon.png",
+        link: "https://polygon.technology/",
+    },
+    {
+        image: "sponsors/eth_india.png",
+        link: "https://ethindia.co ",
+    },
+    {
+        image: "sponsors/coding_ninja.png",
+        link: "https://www.codingninjas.com/",
+    }
+
+
+
+];
+
+const sponsorsInfoBronze = [
+    {
+        image: "sponsors/interview_buddy.png",
+        link: "https://dev.interviewbuddy.in/",
+    },
+    {
+        image: "sponsors/echo3d.png",
+        link: "https://www.echo3d.com/",
+    }
+
+];
+
 const SponsorsCard = ({ link,image }) => {
     return (
-        <div className="m-5 cursor-pointer max-w-sm rounded-md bg-gray-200 overflow-hidden shadow-lg hover:shadow-xl  transition duration-300">
+        <div className="m-5 cursor-pointer max-w-sm rounded-md  overflow-hidden shadow-lg hover:shadow-xl  transition duration-300">
             <div className="p-3">
                 <a href={link}><img src={image} alt="sponsors" className="w-2/4 mx-auto" /></a>
                 {/* <div className="font-bold text-xl mb-2">{title}</div>
@@ -43,31 +54,26 @@ const SponsorsCard = ({ link,image }) => {
 const Sponsors = () => {
     return (
         <>
-        <h1 className="mt-20 font-bold">Sponsors</h1>
-        <h2 className="mt-10 text-white-700 text-3xl">Title Sponsor</h2>
+        <h1 className="mt-20 font-bold" style={{color:'#2D2B46'}}>Sponsors</h1>
+        <h2 className="mt-10 font-bold text-3xl" style={{color:'#2D2B46'}}>Gold </h2>
         <div className="flex flex-wrap justify-center">
-            {sponsorsInfo.map((link, index) => (
+            {sponsorsInfoGold.map((link, index) => (
                 <SponsorsCard key={index} {...link} />
             ))}
         </div>
-        <h2 className="mt-10 text-white-700 text-3xl">Platinum Sponsor</h2>
+        <h2 className="mt-10 font-bold text-3xl" style={{color:'#2D2B46'}}>Silver </h2>
         <div className="flex flex-wrap justify-center">
-            {sponsorsInfo.map((link, index) => (
+            {sponsorsInfoSilver.map((link, index) => (
                 <SponsorsCard key={index} {...link} />
             ))}
         </div>
-        <h2 className="mt-10 text-white-700 text-3xl">Gold Sponsor</h2>
+        <h2 className="mt-10 font-bold text-3xl" style={{color:'#2D2B46'}}>Bronze </h2>
         <div className="flex flex-wrap justify-center">
-            {sponsorsInfo.map((link, index) => (
+            {sponsorsInfoBronze.map((link, index) => (
                 <SponsorsCard key={index} {...link} />
             ))}
         </div>
-        <h2 className="mt-10 text-white-700 text-3xl">Silver Sponsor</h2>
-        <div className="flex flex-wrap justify-center">
-            {sponsorsInfo.map((link, index) => (
-                <SponsorsCard key={index} {...link} />
-            ))}
-        </div>
+ 
         </>
     );
 };

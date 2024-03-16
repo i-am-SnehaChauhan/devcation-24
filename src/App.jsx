@@ -16,8 +16,9 @@ function App() {
     <Judges/>
     <Tracks/>
     <Prizes/>
-    <Footer/>
     <Sponsors/>
+    <Footer/>
+    
     </>
   )
 }
