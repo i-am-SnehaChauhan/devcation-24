@@ -1,0 +1,147 @@
+#footer {
+    padding: 50px 0;
+  }
+  
+  .footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .footerText {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  
+  .FooterTextJoin {
+    margin-bottom: 30px;
+    /* width: 40%; */
+  }
+  
+  .FooterTextJoin h3 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: black;
+    line-height: 1;
+  }
+  
+  .FooterTextJoin a {
+    display: block;
+    font-size: 14px;
+    color: #1bb1dc;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .FooterTextContact {
+    margin-bottom: 30px;
+    
+  }
+  
+  .FooterTextContact h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+  .FooterTextContact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .FooterTextContact li a {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .socil-links {
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  .socil-links a {
+    margin-left: 5px;
+  }
+  
+  .FooterFormdiv {
+    margin-bottom: 30px;
+    width: 40%;
+  }
+  
+  .FooterFormdiv h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .FooterFormdiv p {
+    margin-bottom: 20px;
+    color: gray;
+  }
+  
+  .FooterForm input,
+  .FooterForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .Footerbutton {
+    text-align: center;
+  }
+  
+  .Footerbutton button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+@media (max-width: 950px){
+    .footerContainer {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .footerText {
+        width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-content: center;
+      }
+      .FooterTextJoin
+      .FooterTextContact{
+        width: 50%;
+      }
+      .FooterTextContact{
+        padding-left: 40px;
+      }
+      .FooterFormdiv {
+        width: 60%;
+        
+      }
+}
+@media (max-width: 750px){
+    .FooterFormdiv {
+        width:80%;
+        
+      }
+}
+@media (max-width: 595px){
+    .FooterFormdiv {
+        width: 100%;
+        
+      }
+}
