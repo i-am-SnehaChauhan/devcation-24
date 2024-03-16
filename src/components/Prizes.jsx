@@ -42,7 +42,7 @@ const PrizeCard = ({ title, prize, image }) => {
 const Prizes = () => {
     return (
         <>
-        <h1 className="mt-20 font-bold">Prizes</h1>
+        <h1 className="mt-20 font-bold" style={{color:'#2D2B46'}}>Prizes</h1>
         <div className="flex flex-wrap justify-center">
             {prizeInfo.map((prize, index) => (
                 <PrizeCard key={index} {...prize} />
