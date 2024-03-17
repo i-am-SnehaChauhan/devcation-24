@@ -2,36 +2,28 @@ import React from "react";
 
 const prizeInfo = [
     {
-        title: "Hack & Solve Track Winner",
-        prize: "Rs. 10,000 & Goodies from Sponsors!",
+        title: "First Prize: $90",
+        prize: "First Position Holder at Devcation'24 wins Rs 7500 with goodies!",
     },
     {
-        title: "Hack & Solve Track Runner-Up",
-        prize: "Rs. 7,000 & Goodies from Sponsors!",
+        title: "Second Prize: $42",
+        prize: "Second Position Holder at Devcation'24 wins Rs 3500 along with goodies!",
     },
     {
-        title: "Design & Solve Track Winner",
-        prize: "Rs. 5,000 & Goodies from Sponsors!",
+        title: "Third Prize: $18",
+        prize: "Third Position Holder at Devcation'24 wins Rs 1500!",
     },
     {
-        title: "Design & Solve Track Runner-Up",
-        prize: "Rs. 3,000 & Goodies from Sponsors!",
+        title: "Sustainable Development Prize: $30",
+        prize: "Additional 2500 Rs for winning project developed under the sustainability track.",
     },
-    {
-        title: "Mini Event Winners",
-        prize: "5k worth of Vouchers & Goodies from Sponsors!",
-    },
-    {
-        title: "All participants",
-        prize: "Vouchers, Goodies, Prizes and Perks from Sponsors to all participants!",
-    }
 ];
 
 const PrizeCard = ({ title, prize, image }) => {
     return (
         <div className="m-10 cursor-pointer max-w-sm rounded-md bg-blue-100 overflow-hidden shadow-lg hover:shadow-xl hover:shadow-blue-200 transition duration-300">
             <div className="p-6">
-                <img src="prize.png" alt="Prize" className="w-1/5 h-1/5 mx-auto" />
+                <img src="./Tracks&prizes/prize.png" alt="Prize" className="w-1/5 h-1/5 mx-auto" />
                 <div className="font-bold text-xl mb-2">{title}</div>
                 <p className="text-gray-700 text-base">{prize}</p>
             </div>
