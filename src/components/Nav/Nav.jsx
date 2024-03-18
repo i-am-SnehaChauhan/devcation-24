@@ -61,11 +61,11 @@ const Nav = () => {
           {/* <i className="bi bi-list mobile-nav-toggle"></i> */}
         </nav>
         <div className="social-links"> 
-        <a href="https://twitter.com/gdsc_igdtuw" target="_blank" className="twitter" style={{"marginLeft":"2px"}}> <Icon color="primary" component={XIcon} style={{"width":"15px", "color":"#1BB1DC"}} /> </a> 
-        <a href="https://www.facebook.com/GDSCIGDTUW/" target="_blank" className="facebook"style={{"marginLeft":"2px"}}> <Icon color="primary" component={FacebookIcon} style={{"width":"16px", "color":"#1BB1DC"}}/> </a> 
-        <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" target="_blank" className="linkedin" style={{"marginLeft":"2px"}}> <Icon color="primary" component={LinkedInIcon} style={{"width":"17px", "color":"#1BB1DC"}}/> </a> 
-        <a href="https://www.instagram.com/gdsc_igdtuw" target="_blank" className="instagram" style={{"marginLeft":"2px"}}> <Icon color="primary" component={InstagramIcon} style={{"width":"17px", "color":"#1BB1DC"}}/> </a> 
-        <a href="https://www.youtube.com/@DSCIGDTUW" target="_blank" className="instagram" style={{"marginLeft":"2px"}}> <Icon color="primary" component={YouTubeIcon} style={{"width":"19px", "color":"#1BB1DC"}}/> </a> 
+        <a href="https://twitter.com/gdsc_igdtuw" target="_blank" className="twitter" style={{"marginLeft":"2px"}}> <Icon color="primary" component={XIcon} style={{"width":"25px", "color":"#1BB1DC"}} /> </a> 
+        <a href="https://www.facebook.com/GDSCIGDTUW/" target="_blank" className="facebook"style={{"marginLeft":"2px"}}> <Icon color="primary" component={FacebookIcon} style={{"width":"26px", "color":"#1BB1DC"}}/> </a> 
+        <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" target="_blank" className="linkedin" style={{"marginLeft":"2px"}}> <Icon color="primary" component={LinkedInIcon} style={{"width":"25px", "color":"#1BB1DC"}}/> </a> 
+        <a href="https://www.instagram.com/gdsc_igdtuw" target="_blank" className="instagram" style={{"marginLeft":"2px"}}> <Icon color="primary" component={InstagramIcon} style={{"width":"25px", "color":"#1BB1DC"}}/> </a> 
+        <a href="https://www.youtube.com/@DSCIGDTUW" target="_blank" className="instagram" style={{"marginLeft":"2px"}}> <Icon color="primary" component={YouTubeIcon} style={{"width":"30px", "color":"#1BB1DC"}}/> </a> 
         </div>
         <div className='NavHamToggel'>
            <Icon className="NavHam" component={dropdownNav ? CloseIcon : MenuIcon} style={{"color":"black"}} onClick={NavToggle}/>
