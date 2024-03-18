@@ -1,4 +1,3 @@
-import React from "react";
 import aboutGdsc from "../../public/about.jpg";
 
 const AboutUS = () => {
@@ -13,8 +12,8 @@ const AboutUS = () => {
               About GDSC IGDTUW
             </h1>
             <h2 className="text-lg md:text-xl font-bold mb-4">
-              "GDSC IGDTUW is an all woman’s student community of aspiring
-              software developers"
+              GDSC IGDTUW is an all woman’s student community of aspiring
+              software developers
             </h2>
             <p className="text-md md:text-base mb-6">
               Here at GDSC IGDTUW, we explore technology and use it to build

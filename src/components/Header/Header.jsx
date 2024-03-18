@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Header.css"; // Import CSS file
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
     <div className="header-container" id="header">
       <div className="text-container">
         <h2 className="title textWelcome">Welcome to</h2>
-        <h2 className="title textDev">Devcation'24</h2>
+        <h2 className="title textDev">Devcation`24</h2>
         <button className="button" onClick={Join}>Go to Projects</button>
       </div>
       <div className="image-container">

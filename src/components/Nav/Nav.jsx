@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import { useState,useEffect } from 'react';
 import './Nav.css';
 import logo from "../../assets/gdsc-logo.png"
 import { Icon } from '@mui/material';
@@ -42,7 +42,7 @@ const Nav = () => {
           <ul>
             <li><a className="nav-link scrollto active" href="#header">Home</a></li>
             <li><a className="nav-link scrollto" href="#about">About</a></li>
-            <li><a className="nav-link scrollto" href="#why-us">Devcation'24</a></li>
+            <li><a className="nav-link scrollto" href="#why-us">Devcation`24</a></li>
             <li><a className="nav-link scrollto" href="#features">Timeline</a></li>
             <li><a className="nav-link scrollto" href="#pricing">Events</a></li>
             <li className="nav-link dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>

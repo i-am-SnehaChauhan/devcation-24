@@ -9,7 +9,7 @@ const Tracks = () => {
       <div className="flex flex-col items-start sm:items-center justify-items-start mt-10">
         <div className="sm:w-2/4 cursor-pointer">
           <p className="justify-left">
-            At Devcation'24, innovation meets impact! This year, our focus is on
+            At Devcation`24, innovation meets impact! This year, our focus is on
             addressing pressing global issues and creating positive change
             through technology.
           </p>
