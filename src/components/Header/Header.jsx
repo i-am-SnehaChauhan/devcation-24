@@ -2,13 +2,16 @@ import React from 'react';
 import "./Header.css"; // Import CSS file
 
 const Header = () => {
+  const Join = () => {
+    window.location.href = "https://devcation-24.devfolio.co/overview";
+  };
   return (
     <div className="main-header">
     <div className="header-container" id="header">
       <div className="text-container">
         <h2 className="title textWelcome">Welcome to</h2>
         <h2 className="title textDev">Devcation'24</h2>
-        <button className="button">Go to Projects</button>
+        <button className="button" onClick={Join}>Go to Projects</button>
       </div>
       <div className="image-container">
         <img src="header.png" alt="header" className="image" />
