@@ -10,7 +10,9 @@ const Header = () => {
       <div className="text-container">
         <h2 className="title textWelcome">Welcome to</h2>
         <h2 className="title textDev">Devcation`24</h2>
-        <button className="button" onClick={Join}>Go to Projects</button>
+        <button className="button " onClick={Join}>
+          <img  className="mr-2 w-8 h-8" src="favicon.png" alt="arrow" />
+          Go to Projects</button>
       </div>
       <div className="image-container">
         <img src="header.png" alt="header" className="image" />
