@@ -5,7 +5,9 @@ import Prizes from './components/Prizes'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
-import Sponsors from './components/Sponsors'
+import Sponsors from './components/Sponsors';
+import AboutUS from './components/AboutUS'
+
 function App() {
 
 
@@ -13,6 +15,7 @@ function App() {
     <>
     <Nav/>
     <Header/>
+    <AboutUS/>
     <Judges/>
     <Tracks/>
     <Prizes/>

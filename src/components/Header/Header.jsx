@@ -3,6 +3,7 @@ import "./Header.css"; // Import CSS file
 
 const Header = () => {
   return (
+    <div className="main-header">
     <div className="header-container" id="header">
       <div className="text-container">
         <h2 className="title textWelcome">Welcome to</h2>
@@ -12,7 +13,11 @@ const Header = () => {
       <div className="image-container">
         <img src="header.png" alt="header" className="image" />
       </div>
+
     </div>
+    </div>
+   
+    
   );
 };
 

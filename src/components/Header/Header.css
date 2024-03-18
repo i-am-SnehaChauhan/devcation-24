@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -16,9 +17,9 @@
   
   .title {
     font-family: "Montserrat", sans-serif;
-    font-size: 44px;
+    font-size: 64px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 1.5px;
   }
   .textWelcome{
@@ -36,11 +37,13 @@
   
   .image-container {
     width: 50%;
+    
   }
   
   .image {
     max-width: 80%; 
     height: auto;
+    margin-left: 60px;
   }
   
   /* Media Query for smaller screens */
