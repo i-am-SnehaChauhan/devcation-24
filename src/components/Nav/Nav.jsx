@@ -63,7 +63,7 @@ const Nav = () => {
                 <li><a className="dropdown-item" href="#Sponsors"><Link to='#sponsors' smooth>Sponsors</Link></a></li>
               </ul>
             </li>
-            <li><a className="nav-link scrollto" href="#footer">Contact</a></li>
+            <li><a className="nav-link scrollto" href=""><Link to='#contact' smooth>Contact</Link></a></li>
           </ul>
           {/* <i className="bi bi-list mobile-nav-toggle"></i> */}
         </nav>
