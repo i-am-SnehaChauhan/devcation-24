@@ -59,11 +59,13 @@
     font-size: 2.2rem;
     display: block;
     margin-top: 2rem;
+    font-weight: 900;
 }
 .layer p{
     width: 350px;
 font-size: 1.2rem;
 margin-top: 1rem;
+font-weight: 700;
 }
 .layer button{
     width:150px;
