@@ -8,13 +8,13 @@ const Tracks = () => {
       </h1>
       <div className="flex flex-col items-start sm:items-center justify-items-start mt-10">
         <div className="sm:w-2/4 cursor-pointer">
-          <p className="justify-left">
+          <p>
             At Devcation`24, innovation meets impact! This year, our focus is on
             addressing pressing global issues and creating positive change
             through technology.
           </p>
           <br />
-          <div className="justify-left">
+          <div>
             Our themes include:
             <div className="grid grid-cols-2 gap-4 mt-4">
               <div className="flex flex-col items-center bg-blue-200 p-4 rounded-md hover:bg-blue-100 cursor-pointer">
