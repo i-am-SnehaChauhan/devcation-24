@@ -19,7 +19,7 @@ const sponsorsInfoSilver = [
         link: "https://ethindia.co ",
     },
     {
-        image: "sponsors/coding_ninja.png",
+        image: "sponsors/coding_ninja.jpg",
         link: "https://www.codingninjas.com/",
     }
 
@@ -35,6 +35,10 @@ const sponsorsInfoBronze = [
     {
         image: "sponsors/echo3d.png",
         link: "https://www.echo3d.com/",
+    },
+    {
+        image: "sponsors/rosemedia.jpg",
+        link: "https://rosenfeldmedia.com/",
     }
 
 ];
