@@ -54,7 +54,7 @@ const SponsorsCard = ({ link,image }) => {
 const Sponsors = () => {
     return (
         <>
-        <h1 className="mt-20 font-bold" style={{color:'#2D2B46'}}>Sponsors</h1>
+        <h1 id="sponsors" className="mt-20 font-bold" style={{color:'#2D2B46'}}>Sponsors</h1>
         <h2 className="mt-10 font-bold text-3xl" style={{color:'#2D2B46'}}>Gold </h2>
         <div className="flex flex-wrap justify-center">
             {sponsorsInfoGold.map((link, index) => (

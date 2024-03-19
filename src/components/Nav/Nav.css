@@ -49,12 +49,13 @@
     display: block;
     padding: 10px 15px;
     text-decoration: none;
-  }
-  
-  .mobile-nav-toggle {
-    font-size: 24px;
     cursor: pointer;
   }
+  
+  /* .mobile-nav-toggle {
+    font-size: 24px;
+    cursor: pointer;
+  } */
   
   .social-links{
     margin-left: 70px;
@@ -83,7 +84,8 @@
     flex-direction: column;
     position: absolute;
     z-index: 1000;
-    background-color: #fff;
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     padding: 10px 0;
   }
@@ -130,9 +132,10 @@
   }
   .NavHamToggel{
     display: none;
+    cursor: pointer;
   }
   /* Responsive Styles */
-  @media (max-width: 1024px) {
+  @media (max-width: 1324px) {
     #navheader{
       width: 100%;
     }
@@ -147,16 +150,22 @@
     }
     
     .nav-link {
-      padding: 5px 10px;
+      padding: 2px 10px;
     }
-  
+    
     .social-links a {
       font-size: 1.5rem;
     }
-
+    .social-links{
+      margin-left: 0px;
+    }
+    #navbar ul {
+      margin-left: 0px;
+      font-size: 16px;
+    }
   }
   
-  @media (max-width: 850px){
+  @media (max-width: 1050px){
     .navcontainer{
       width: 100%;
       justify-content: flex-start;

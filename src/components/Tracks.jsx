@@ -3,7 +3,7 @@ import React from "react";
 const Tracks = () => {
   return (
     <>
-      <h1 className="mt-20 font-bold" style={{ color: "#2D2B46" }}>
+      <h1 id="tracks" className="mt-20 font-bold" style={{ color: "#2D2B46" }}>
         Tracks
       </h1>
       <div className="flex flex-col items-start sm:items-center justify-items-start mt-10">

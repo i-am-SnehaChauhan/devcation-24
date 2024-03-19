@@ -26,7 +26,7 @@ const Footer = () => {
               <li><a href="mailto:dscigdtuw@gmail.com">dscigdtuw@gmail.com</a></li>
               <li><a href="mailto:gdsc.devcation@gmail.com">gdsc.devcation@gmail.com</a></li>
             </ul>
-            <div className="social-links">
+            <div className="socil-links">
               <a href="https://twitter.com/gdsc_igdtuw" target="_blank" rel="noopener noreferrer" className="twitter">
                 <Icon color="primary" component={XIcon} />
               </a>

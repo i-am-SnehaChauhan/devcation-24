@@ -4,7 +4,7 @@ const AboutUS = () => {
   const Join = () => {};
 
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row items-start justify-center bg-[#fff]  bg-cover overflow-hidden text-black relative">
+    <div id="AboutUs" className="flex flex-col md:flex-row lg:flex-row items-start justify-center bg-[#fff]  bg-cover overflow-hidden text-black relative">
       <div className="flex-1 mx-0 md:mx-0 my-14 py-10 px-3 md:px-16 max-w-7xl bg-opacity-70 bg-[#c9c9ec] backdrop-blur-md rounded-lg  md:my-14">
         <div className="grid md:grid-cols-2 gap-4 items-start">
           <div>

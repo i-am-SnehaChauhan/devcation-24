@@ -1,4 +1,6 @@
 import { useState,useEffect } from 'react';
+import { NavHashLink as Link } from 'react-router-hash-link';
+import { BrowserRouter } from 'react-router-dom';
 import './Nav.css';
 import logo from "../../assets/gdsc-logo.png"
 import { Icon } from '@mui/material';
@@ -35,25 +37,30 @@ const Nav = () => {
     };
   }, []);
   return (
+    <BrowserRouter>
     <header id="navheader" className={`fixed-top ${scrollPosition > 100 ? 'black-bg' : ''}`}>
       <div className="navcontainer" >
         <a href='/' className="logo-container"><img src={logo} alt="Logo" className="logo me-auto" style={{"height":"110px"}}/></a>
         <nav id="navbar" className={`navbar ${dropdownNav?'dropdown-nav':'nav-hide'}`} >
           <ul>
-            <li><a className="nav-link scrollto active" href="#header">Home</a></li>
-            <li><a className="nav-link scrollto" href="#about">About</a></li>
-            <li><a className="nav-link scrollto" href="#why-us">Devcation`24</a></li>
+            <li><a className="nav-link scrollto active" href="">
+              <Link to="#header" activeStyle={{ color: 'red' }}>Home</Link>
+              </a></li>
+            <li><a className="nav-link scrollto" href="">
+              <Link to='#AboutUs' smooth activeClassName="selected" activeStyle={{ color: 'red' }}>About</Link>
+              </a></li>
+            {/* <li><a className="nav-link scrollto" href="#header">Devcation`24</a></li> */}
             <li><a className="nav-link scrollto" href="#features">Timeline</a></li>
             <li><a className="nav-link scrollto" href="#pricing">Events</a></li>
             <li className="nav-link dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-              <a className="dropdown-toggle" href="#" role="button" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+              <a className="dropdown-toggle" href="" role="button" >
                 More
               </a>
               <ul className={`dropdown-menu ${dropdownMenuOpen ? 'dropdown-menu-show' : 'menu-hide'}`} style={{ visibility: dropdownMenuOpen ? 'visible' : 'hidden' }}>
-                <li><a className="dropdown-item" href="#portfolio">Tracks</a></li>
-                <li><a className="dropdown-item" href="#services">Prizes</a></li>
+                <li><a className="dropdown-item" href="#Tracks"><Link to='#tracks' smooth>Tracks</Link></a></li>
+                <li><a className="dropdown-item" href="#Prizes"><Link to='#prizes' smooth>Prizes</Link></a></li>
                 <li><a className="dropdown-item" href="#team">Team</a></li>
-                <li><a className="dropdown-item" href="#sponsors">Sponsors</a></li>
+                <li><a className="dropdown-item" href="#Sponsors"><Link to='#sponsors' smooth>Sponsors</Link></a></li>
               </ul>
             </li>
             <li><a className="nav-link scrollto" href="#footer">Contact</a></li>
@@ -72,6 +79,7 @@ const Nav = () => {
         </div>
       </div>
     </header>
+    </BrowserRouter>
   );
 };
 

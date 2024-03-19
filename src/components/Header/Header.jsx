@@ -5,7 +5,7 @@ const Header = () => {
     window.location.href = "https://devcation-24.devfolio.co/overview";
   };
   return (
-    <div className="main-header">
+    <div className="main-header" id="header">
     <div className="header-container" id="header">
       <div className="text-container">
         <h2 className="title textWelcome">Welcome to</h2>
