@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cursive+Font&display=swap');
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:auto;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.skill-head{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'cursive', sans-serif;
+    color: #000;
+    font-weight: 700;
+}

@@ -1,28 +1,21 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home'
+import Event from './pages/EventPage'
+import Team from './pages/TeamPage'
 import './App.css'
-import Tracks from './components/Tracks'
-import Judges from './components/judges'
-import Prizes from './components/Prizes'
-import Footer from './components/Footer/Footer'
-import Header from './components/Header/Header'
-import Nav from './components/Nav/Nav'
-import Sponsors from './components/Sponsors';
-import AboutUS from './components/AboutUS'
+
 
 function App() {
 
 
   return (
-    <>
-    <Nav/>
-    <Header/>
-    <AboutUS/>
-    <Judges/>
-    <Tracks/>
-    <Prizes/>
-    <Sponsors/>
-    <Footer/>
-    
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/event" element={<Event />} />
+        <Route path='/team' element={<Team />} />
+      </Routes>
+    </Router>
   )
 }
 
