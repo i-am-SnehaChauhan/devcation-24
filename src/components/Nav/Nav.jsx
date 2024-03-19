@@ -44,7 +44,7 @@ const Nav = () => {
             <li><a className="nav-link scrollto" href="#about">About</a></li>
             <li><a className="nav-link scrollto" href="#why-us">Devcation`24</a></li>
             <li><a className="nav-link scrollto" href="#features">Timeline</a></li>
-            <li><a className="nav-link scrollto" href="#pricing">Events</a></li>
+            <li><a className="nav-link scrollto" href="/event">Events</a></li>
             <li className="nav-link dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
               <a className="dropdown-toggle" href="#" role="button" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
                 More
@@ -52,7 +52,7 @@ const Nav = () => {
               <ul className={`dropdown-menu ${dropdownMenuOpen ? 'dropdown-menu-show' : 'menu-hide'}`} style={{ visibility: dropdownMenuOpen ? 'visible' : 'hidden' }}>
                 <li><a className="dropdown-item" href="#portfolio">Tracks</a></li>
                 <li><a className="dropdown-item" href="#services">Prizes</a></li>
-                <li><a className="dropdown-item" href="#team">Team</a></li>
+                <li><a className="dropdown-item" href="/team">Team</a></li>
                 <li><a className="dropdown-item" href="#sponsors">Sponsors</a></li>
               </ul>
             </li>
