@@ -28,18 +28,15 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="border-black border-4 text-white mt-10 xl:mt-0 xl:translate-y-40 md:w-fit h-fit" style={{ marginLeft: '100px',width: '50%' }}>
+     
 
-        
-      <div className="flex bg-black w-auto h-8 m-2 justify-end items-center text-[#F4E1B9]">
-            <div className="border-2 border-[#f1debc] w-6 h-6 mr-1 text-center text-bold">?</div>
-          </div>
+
       <div className="image-container">
       
         <img src="header.png" alt="header" className="image"/>
        
      
-      </div>
+      
       </div>
       
 
