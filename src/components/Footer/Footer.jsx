@@ -10,7 +10,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="contact">
       <div className="footerContainer">
         <div className="footerText">
 

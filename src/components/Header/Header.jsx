@@ -5,7 +5,7 @@ const Header = () => {
     window.location.href = "https://devcation-24.devfolio.co/overview";
   };
   return (
-    <div className="main-header">
+    // <div className="main-header"id="header">
     <div className="header-container" id="header">
       <div className="text-container">
         <h2 className="title textWelcome">Welcome to</h2>
@@ -14,12 +14,22 @@ const Header = () => {
           <img  className="mr-2 w-8 h-8" src="favicon.png" alt="arrow" />
           Go to Projects</button>
       </div>
+      <div class="border-black border-4 text-white mt-10 xl:mt-0 xl:translate-y-40 md:w-fit h-fit" style={{ marginLeft: '100px',width: '50%' }}>
+        
+      <div class="flex bg-black w-auto h-8 m-2 justify-end items-center text-[#F4E1B9]">
+            <div class="border-2 border-[#f1debc] w-6 h-6 mr-1 text-center text-bold">?</div>
+          </div>
       <div className="image-container">
-        <img src="header.png" alt="header" className="image" />
+      
+        <img src="header.png" alt="header" className="image"/>
+       
+     
       </div>
+      </div>
+      
 
     </div>
-    </div>
+    // </div>
    
     
   );
