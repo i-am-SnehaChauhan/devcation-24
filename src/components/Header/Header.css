@@ -1,18 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+@font-palette-values {
+  --Grays: 10;
+}
+@font-palette-values --Mint {
+  font-family: Rocher;
+  base-palette: 7;
+}
 
 .header-container {
+  height:90vh;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     padding: 10px;
     width: 100%;
     margin-top: 60px;
   }
   
   .text-container {
-    width: 40%;
+    width: 50%;
     text-align: center;
+    margin: 50px;
+    /* margin-top: 100px; */
   }
   
   .title {
@@ -23,10 +36,15 @@
     letter-spacing: 1.5px;
   }
   .textWelcome{
-    color: #2D2B46;
+    color:black;
+    font-family: Rocher;
   }
   .textDev{
-    color: #24A3D6;
+    color: black;
+    font-palette: --Mint;
+    font-family: Rocher;
+    font-size:80px;
+    text-align: center;
   }
   .button {
     width: 312px; /* Adjust button width for responsiveness */
@@ -47,15 +65,21 @@
   }
   .image-container {
     width: 50%;
+    /* height:200px; */
+    /* position:relative; */
+    /* height:200px; */
     
   }
-  
+ 
   .image {
-    max-width: 80%; 
+    /* max-width: 80%;  */
     height: auto;
-    margin-left: 60px;
+    /* width:50%; */
+    margin-left: 70px;
+    /* position:absolute;
+    top:0; */
   }
-  
+
   /* Media Query for smaller screens */
   @media only screen and (max-width: 768px) {
     .header-container {

@@ -4,7 +4,11 @@ const AboutUS = () => {
   const Join = () => {};
 
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row items-start justify-center bg-[#fff]  bg-cover overflow-hidden text-black relative">
+    <div class="border-black border-4 text-white mt-10 xl:mt-0 xl:translate-y-40 md:w-fit h-fit">
+    <div class="flex bg-black w-auto h-8 m-2 justify-end items-center text-[#F4E1B9]">
+    <div class="border-2 border-[#f1debc] w-6 h-6 mr-1 text-center text-bold">?</div>
+          </div>
+    <div id="AboutUs" className="flex flex-col md:flex-row lg:flex-row items-start justify-center bg-[#fff]  bg-cover overflow-hidden text-black relative">
       <div className="flex-1 mx-0 md:mx-0 my-14 py-10 px-3 md:px-16 max-w-7xl bg-opacity-70 bg-[#c9c9ec] backdrop-blur-md rounded-lg  md:my-14">
         <div className="grid md:grid-cols-2 gap-4 items-start">
           <div>
@@ -45,6 +49,8 @@ const AboutUS = () => {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 };
 
