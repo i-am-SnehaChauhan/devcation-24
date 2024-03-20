@@ -12,8 +12,8 @@ const judgeDetails = {
 const Judges = () => {
     return (
         <div className="text-center">
-            <h1 className="m-10 font-bold"style={{color:'#2D2B46'}}>Judges</h1>
-            <div className=" flex justify-center">
+            <h1 className="Rocher-heading"style={{color:'#2D2B46'}}>Judges</h1>
+            <div className=" flex justify-center mt-5">
             <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
                 {Object.keys(judgeDetails).map((judge) => (
                     <div className="relative" key={judge}>

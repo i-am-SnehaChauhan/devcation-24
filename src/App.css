@@ -479,3 +479,10 @@ svg{
   filter:drop-shadow(0px 0px 16px var(--main-color));
   transition: 0.2s ease-in-out;
 }
+
+.Rocher-heading{
+  font-palette: --Mint;
+    font-family: Rocher;
+    font-size:80px;
+}
+

@@ -3,12 +3,12 @@ import React from "react";
 const Tracks = () => {
   return (
     <>
-      <h1 id="tracks" className="mt-20 font-bold" style={{ color: "#2D2B46" }}>
+      <h1 id="tracks" className="Rocher-heading" style={{ color: "#2D2B46" }}>
         Tracks
       </h1>
-      <div className="flex flex-col items-start sm:items-center justify-items-start mt-10">
+      <div className="flex flex-col items-center sm:items-center justify-items-center mt-5">
         <div className="sm:w-2/4 cursor-pointer">
-          <p>
+          <p className="text-#000056 text-center">
             At Devcation`24, innovation meets impact! This year, our focus is on
             addressing pressing global issues and creating positive change
             through technology.
