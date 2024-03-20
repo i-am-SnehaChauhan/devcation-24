@@ -9,6 +9,7 @@ import AboutUS from '../components/AboutUS'
 import Timeline from '../components/Timeline'
 import FAQs from '../components/Faq/Faq'
 import Statistics from '../components/Statistics/Statistics'
+import AboutDev from '../components/AboutDev'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
     <Header/>
     <Statistics/>
     <AboutUS/>
+    <AboutDev/>
     <Judges/>
     <Tracks/>
     <Timeline/>
