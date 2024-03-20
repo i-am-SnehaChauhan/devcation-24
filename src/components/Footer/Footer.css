@@ -36,6 +36,8 @@
   border-bottom: 1px solid #373636;
   
 }
+
+
 .single-cta i {
   color: #080e68;
   font-size: 30px;
@@ -198,21 +200,23 @@
         align-items: center;
         justify-content: center;
       }
-      .FooterTextJoin
+      .FooterTextJoin{
+        width: 100%;
+      }
       .FooterTextContact{
-        width: 50%;
+        width: 100%;
       }
       .FooterTextContact{
         padding-left: 40px;
       }
       .FooterFormdiv {
-        width: 60%;
+        width: 100%;
         
       }
 }
 @media (max-width: 750px){
     .FooterFormdiv {
-        width:80%;
+        width:60%;
         
       }
 }

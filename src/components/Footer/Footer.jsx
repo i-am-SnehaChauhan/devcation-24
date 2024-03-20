@@ -10,8 +10,8 @@ const Footer = () => {
   return (
     <footer id="contact">
       <div className="footer-cta pt-5 pb-5">
-        <div className="flex space-x-64 items-center ">
-          <div className="col-xl-4 col-md-4 text-left items-center">
+        <div className="flex items-center lg:space-x-64 md:space-x-16">
+          <div className="col-xl-4 col-md-4 text-left sm:text-left">
             <a
               href="https://discord.gg/5fz4rza3cn"
               target="_blank"
