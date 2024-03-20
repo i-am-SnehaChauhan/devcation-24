@@ -1,10 +1,77 @@
 #footer {
-    padding: 50px 0;
+    padding: 10px 0;
+  }
+  @font-face {
+    font-family: 'VT323';
+    src: url(https://fonts.googleapis.com/css?family=VT323);
+  } 
+
+  @font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
   }
   
+  /* Define custom font palette values */
+  @font-palette-values {
+    --Grays: 20;
+  }
+  @font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 9;
+  }
+  @font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+  }
+  
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+  
+}
+.single-cta i {
+  color: #080e68;
+  font-size: 30px;
+  float: left;
+  align-items: start;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  font-palette: --Mint;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Rocher', sans-serif;
+
+  /* margin-bottom: 2px; */
+}
+.cta-link {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.cta-link:hover {
+  transform: scale(1.05);
+}
+
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
   .footerContainer {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
     text-align: left;
@@ -13,19 +80,22 @@
   .footerText {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+    width: 100%;
   }
   
   .FooterTextJoin {
     margin-bottom: 30px;
-    /* width: 40%; */
+
+    width: 40%;
   }
   
   .FooterTextJoin h3 {
     font-size: 34px;
     margin-bottom: 15px;
-    color: black;
+    color: #080e68;
     line-height: 1;
+    font-family: 'VT323';
+    font-weight: 700;
   }
   
   .FooterTextJoin a {
@@ -34,10 +104,13 @@
     color: #1bb1dc;
     text-decoration: none;
     margin-bottom: 10px;
+   
   }
   
   .FooterTextContact {
     margin-bottom: 30px;
+    float: left;
+    width: 50%;
     
   }
   
@@ -57,18 +130,22 @@
     color: gray;
   }
   
-  .socil-links {
-    margin-top: 15px;
+  .social-links {
+    margin-top: 10px;
     display: flex;
+    justify-content: left;
+    margin-left: 0px;
+    float: left;
   }
   
-  .socil-links a {
+  .social-links a {
     margin-left: 5px;
+    margin-right: 10px;
   }
-  
+
   .FooterFormdiv {
     margin-bottom: 30px;
-    width: 40%;
+    width: 80%;
   }
   
   .FooterFormdiv h4 {
