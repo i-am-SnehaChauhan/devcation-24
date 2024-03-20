@@ -7,6 +7,7 @@ import Nav from '../components/Nav/Nav'
 import Sponsors from '../components/Sponsors';
 import AboutUS from '../components/AboutUS'
 import Timeline from '../components/Timeline'
+import FAQs from '../components/Faq/Faq'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
     <Timeline/>
     <Prizes/>
     <Sponsors/>
+    <FAQs/>
     <Footer/>
     </>
   )
