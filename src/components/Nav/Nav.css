@@ -25,7 +25,9 @@
 }
 
 .logo-container {
-  flex: 0 0 auto;
+/*   flex: 0 0 auto; */
+  height: 50px; 
+  width: 200px; 
 }
 
 .logo {
@@ -53,7 +55,7 @@
 }
 
 .social-links {
-  margin-left: 70px;
+/*   margin-left: 70px; */
   align-items: end;
 }
 
@@ -174,7 +176,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      position: absolute;
+      position: fixed;
       top: 60px;
       left: 0;
       right: 0;
