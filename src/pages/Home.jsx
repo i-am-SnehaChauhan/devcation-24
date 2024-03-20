@@ -6,6 +6,7 @@ import Header from '../components/Header/Header'
 import Nav from '../components/Nav/Nav'
 import Sponsors from '../components/Sponsors';
 import AboutUS from '../components/AboutUS'
+import Timeline from '../components/Timeline'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
     <AboutUS/>
     <Judges/>
     <Tracks/>
+    <Timeline/>
     <Prizes/>
     <Sponsors/>
     <Footer/>
