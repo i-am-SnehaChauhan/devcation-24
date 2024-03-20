@@ -3,37 +3,35 @@ import PropTypes from "prop-types";
 import "./Faq.css";
 
 const faqs = [
+    
     {
         id: 1,
-        question: "What is an Ideathon, Designathon and Hackathon?",
-        answer: `Devcation 2.0 is a festival where tech-enthusiasts come together for a week to learn, explore, share ideas and find innovative solutions to everyday problems! An Ideation is where you ideate and present your solution, a Designathon is where you design and present a user-interface for your solution and a hackathon is where you present a working prototype of your solution, all supported by workshops and mentors.`
+        question: "Who can contribute?",
+        answer: `Devcation is open to anyone with an interest in technology, innovation, and problem-solving. Participants can include students, developers, designers, entrepreneurs, and professionals from various backgrounds.`
+        
     },
     {
         id: 2,
-        question: "Who can contribute?",
-        answer: `If you're a tech enthusiast, designer or just someone who has some creative solutions and product ideas, we'd love to have you at Devcation 2.0! Whether you’re undergrad or graduate, we believe you can get something out of the event.`
+        question: "Where can we reach out in case of queries?",
+        answer: `You can reach out to us on our Discord Server with any queries. Kindly use the doubt channel for the same!`
         
     },
     {
         id: 3,
-        question: "Do I need past experience?",
-        answer: `Devcation 2.0 is a festival where tech-enthusiasts come together for a week to learn, explore, share ideas and find innovative solutions to everyday problems! An Ideation is where you ideate and present your solution, a Designathon is where you design and present a user-interface for your solution and a hackathon is where you present a working prototype of your solution, all supported by workshops and mentors.`
-        
+        question: "Do I need to have coding experience to participate?",
+        answer: `While coding experience is beneficial, it's not always necessary to participate in a hackathon. Many hackathons welcome participants with diverse skill sets, including design, business development, marketing, and project management. If you're a beginner you can also look at our mini events`
     },
     {
         id: 4,
-        question: "How much does it cost to participate in Devcation 2.0?",
-        answer: `Nothing! It is absolutely free of cost.`
+        question: "What happens after the hackathon ends?",
+        answer: `After the hackathon concludes, top 7 teams will be invited to present their projects to judges and fellow participants during the final pitching round at IGDTUW.
+
+        Winners will be announced, and prizes awarded based on the judging criteria. Tentative Date for this is 5th April, 2024.`
     },
     {
         id: 5,
-        question: "How to participate in Devcation 2.0?",
-        answer: `You can make sumissions to the Designathon and Hackathon in teams of 1-4. However, making a submission is not mandatory, you can be a part of this festival by attending working, netowking events, fun sessions and games!`
-    },
-    {
-        id: 6,
-        question: "My question was not answered here.",
-        answer: `Kindly send us your queries on the contact form our discord server and tag the organizers.`
+        question: "How can I stay updated on hackathon announcements and events?",
+        answer: `Stay informed about Devcation 24 by joining our Discord Server. Know more about upcoming hackathons and events by GDSC IGDTUW by joining our GDSC Chapter.`
     }
 ]
  
@@ -56,7 +54,7 @@ const AccordionItem = ({ handleToggle, active, faq }) => {
                     : { height: "0px" }
             }>
                 <div className="rc-accordion-body">
-                    <p className='mb-0'>{answer}</p>
+                    <p className='mb-0 '>{answer}</p>
                 </div>
             </div>
         </div>
@@ -83,7 +81,7 @@ const FAQs = () => {
     return (
         <div className="container">
             <div className="question-container">
-                <h1 className="text-black font-bold">Frequently Asked Questions</h1>
+                <h1 className="Rocher-heading">Frequently Asked Questions</h1>
                 {faqs.map((faq, index) => (
                     <AccordionItem key={index} active={active} handleToggle={handleToggle} faq={faq} />
                 ))}
