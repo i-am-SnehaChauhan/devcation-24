@@ -1,5 +1,3 @@
-import React from "react";
-
 const sponsorsInfoGold = [
     {
         image: "sponsors/rcigdtuw.jpg",
