@@ -1,4 +1,10 @@
 import "./Header.css"; // Import CSS file
+import { Icon } from "@mui/material";
+import XIcon from "@mui/icons-material/X";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const Header = () => {
   const Join = () => {
@@ -13,6 +19,13 @@ const Header = () => {
         <button className="button " onClick={Join}>
           <img  className="mr-2 w-8 h-8" src="favicon.png" alt="arrow" />
           Go to Projects</button>
+          <div className="social-container"> 
+        <a href="https://twitter.com/gdsc_igdtuw" target="_blank" className="twitter" style={{"marginLeft":"3px"}}> <Icon className="icon"color="primary" component={XIcon} style={{"width":"40px","height":"30px", "color":"#1BB1DC"}} /> </a> 
+        <a href="https://www.facebook.com/GDSCIGDTUW/" target="_blank" className="facebook"style={{"marginLeft":"3px"}}> <Icon className="icon" color="primary" component={FacebookIcon} style={{"width":"30px", "height":"40px","color":"#1BB1DC"}}/> </a> 
+        <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" target="_blank" className="linkedin" style={{"marginLeft":"3px"}}> <Icon color="primary"className="icon" component={LinkedInIcon} style={{"width":"30px", "height":"40px","color":"#1BB1DC"}}/> </a> 
+        <a href="https://www.instagram.com/gdsc_igdtuw" target="_blank" className="instagram" style={{"marginLeft":"3px"}}> <Icon className="icon"color="primary" component={InstagramIcon} style={{"width":"30px", "height":"30px","color":"#1BB1DC"}}/> </a> 
+        <a href="https://www.youtube.com/@DSCIGDTUW" target="_blank" className="instagram" style={{"marginLeft":"3px"}}> <Icon className="icon"color="primary" component={YouTubeIcon} style={{"width":"35px", "height":"30px","color":"#1BB1DC"}}/> </a> 
+        </div>
       </div>
 
       <div className="border-black border-4 text-white mt-10 xl:mt-0 xl:translate-y-40 md:w-fit h-fit" style={{ marginLeft: '100px',width: '50%' }}>
