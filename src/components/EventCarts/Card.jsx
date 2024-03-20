@@ -48,10 +48,10 @@ function Card(props) {
                 <i className="fas fa-calendar-alt"></i>
                 <p>{props.date}</p>
             </div>
-            <div className="date-info">
+            {/* <div className="date-info">
             <i className="fas fa-map-marker-alt"></i>
                 <p>Online</p>
-            </div>
+            </div> */}
         </div>
     );
 }

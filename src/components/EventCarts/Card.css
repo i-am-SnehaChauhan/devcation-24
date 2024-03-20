@@ -1,7 +1,7 @@
 
 .cardproject{
     width: 350px;
-    height: 330px;
+    height: 400px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -9,7 +9,7 @@
 }
 .cardproject img{
     width: 100%;
-    height: 50%;
+    height: 70%;
     object-fit: cover;
 }
 
