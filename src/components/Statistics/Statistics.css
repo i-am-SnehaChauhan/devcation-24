@@ -1,0 +1,54 @@
+#call-to-action {
+    background: #2d2b46;
+   
+    padding: 0px 0;
+    margin-top: 0px;
+    border-radius: 90px;
+}
+  .cta-title {
+    width: 100%; /* Set width of title */   
+    color: #fff; /* Set title color */
+    font-size: 42px; /* Set title font size */
+    margin-bottom: 30px; /* Add margin bottom */
+  }
+  
+  .cta-text {
+    color: #fff; /* Set text color */
+    font-size: 28px; /* Set text font size */
+  }
+  
+  .counters {
+    width: 100%; /* Set width of counters */
+    display: flex; /* Display counters in a flex container */
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    flex-wrap: wrap; /* Wrap items to new lines if necessary */
+    margin-top: 10px; /* Add margin top */
+    gap: 80px; /* Set gap between counters */
+  }
+  
+  .counters .col-lg-3 {
+    
+    padding: 0 0px; /* Add padding to columns */
+  }
+  
+  .counters .col-lg-3 span {
+    display: block; /* Make counter numbers block elements */
+    font-size: 36px; /* Set counter number font size */
+    color: #fff; /* Set counter number color */
+  }
+  
+  .counters .col-lg-3 p {
+    font-size: 18px; /* Set counter label font size */
+    color: #6c757d; /* Set counter label color */
+  }
+  
+  @media (max-width: 991px) {
+    .text-lg-start {
+      text-align: center; /* Center text for smaller screens */
+    }
+  
+    .counters .col-lg-3 {
+      width: 50%; /* Set width of columns for smaller screens */
+    }
+  }
+  

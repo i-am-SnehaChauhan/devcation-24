@@ -8,6 +8,7 @@ import Sponsors from '../components/Sponsors';
 import AboutUS from '../components/AboutUS'
 import Timeline from '../components/Timeline'
 import FAQs from '../components/Faq/Faq'
+import Statistics from '../components/Statistics/Statistics'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
     <>
     <Nav/>
     <Header/>
+    <Statistics/>
     <AboutUS/>
     <Judges/>
     <Tracks/>
