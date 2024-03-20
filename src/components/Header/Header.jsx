@@ -33,7 +33,7 @@ const Header = () => {
 
       <div className="image-container">
       
-        <img src="header.png" alt="header" className="image"/>
+        <img src="hero.jpg" alt="header" className="image"/>
        
      
       
