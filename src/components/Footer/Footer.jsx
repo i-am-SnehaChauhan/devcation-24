@@ -11,7 +11,7 @@ const Footer = () => {
     <footer id="contact">
       <div className="footer-cta pt-5 pb-5">
         <div className="flex items-center lg:space-x-64 md:space-x-16">
-          <div className="col-xl-4 col-md-4 text-left sm:text-left">
+          <div className="col-xl-4 col-md-4 sm:text-left w-1/3 ">
             <a
               href="https://discord.gg/5fz4rza3cn"
               target="_blank"
@@ -26,9 +26,9 @@ const Footer = () => {
               </div>
             </a>
           </div>
-          <div className="col-xl-4 col-md-4 text-left">
+          <div className="col-xl-4 col-md-4 text-left sm:text-left w-1/3">
             <a
-              href="https://drive.google.com/file/d/1ZG9OgJfCtQxpymo0c1X2hUqPNCYY0eNa/view"
+              href="https://gdsc.community.dev/indira-gandhi-delhi-technical-university-for-women-delhi/"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-link"
@@ -36,12 +36,12 @@ const Footer = () => {
               <div className="single-cta">
                 <i className="fas fa-book"></i>
                 <div className="cta-text">
-                  <h4>Reference</h4>
+                  <h4> GDSC Chapter</h4>
                 </div>
               </div>
             </a>
           </div>
-          <div className="col-xl-4 col-md-4 mb-30 text-left">
+          <div className="col-xl-4 col-md-4 mb-30 text-left sm:text-left w-1/3">
             <a href="https://devcation-24.devfolio.co/overview" className="cta-link">
               <div className="single-cta">
                 <i className="fas fa-globe"></i>
@@ -60,18 +60,18 @@ const Footer = () => {
               JOIN OUR <br /> CHAPTER
             </h3>
             <a
-              href="https://bit.ly/Year-At-GDSC-IGDTUW)"
+              href="https://drive.google.com/file/d/1ZG9OgJfCtQxpymo0c1X2hUqPNCYY0eNa/view"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Year with GDSC IGDTUW 2023
+              <p className="text-blue-500 ml-0">Year with GDSC IGDTUW 2023</p>
             </a>
             <a
               href="https://gdsc.community.dev/indira-gandhi-delhi-technical-university-for-women-delhi/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Join our chapter here!
+              <p className="text-blue-500" >Join our chapter here!</p>
             </a>
           </div>
 
