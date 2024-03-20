@@ -1,99 +1,55 @@
 // @ts-nocheck
-import debojit from "../public/sandeep.png";
-import Bipasha from "../public/sandeep.png";
-import Sayan from "../public/sandeep.png";
-import sayandeep from "../public/sandeep.png";
-import soham from "../public/sandeep.png";
-import atharva from "../public/Atharva.png";
-import atif from "../public/sandeep.png";
-import nikhil from "../public/sandeep.png";
-import subhajit from "../public/sandeep.png";
-import soumi from "../public/sandeep.png";
-import saransh from "../public/sandeep.png";
-import momin from "../public/sandeep.png";
-import sandeep from "../public/sandeep.png";
-import yash from "../public/sandeep.png";
-import siddharth from "../public/sandeep.png";
+import debojit from "/Team/sneha.jpg";
+import akshita from "/Team/Akshita.png";
+import Bipasha from "/Team/sneha.jpg";
+import Sayan from "/Team/sneha.jpg";
+import radhika from "/Team/RadhikaBansal-TechnicalLead.jpeg";
+import soham from "/Team/sneha.jpg";
+import aishvi from "/Team/Aishvi.jpg";
+
+import atif from "/Team/sneha.jpg";
+import nikhil from "/Team/sneha.jpg";
+import soumi from "/Team/sneha.jpg";
+import saransh from "/Team/sneha.jpg";
+import momin from "/Team/sneha.jpg";
+import yash from "/Team/sneha.jpg";
 
 
 export const teamData = [
   {
-    name: "Sandeep Anand",
-    title: "Faculty Advisor",
-    image: sandeep,
+    name: "Akshita Jha",
+    title: "GDSC Lead",
+    image: akshita,
     socials: [
       {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/",
+        url: "https://www.linkedin.com/in/jhaakshita/",
         title: "LinkedIn",
         icon: "https://img.icons8.com/color/32/linkedin.png",
       },
     ],
   },
   {
-    name: "Atharva",
-    title: "Chief Operations Officer",
-    image: atharva,
+    name: "Radhika Bansal",
+    title: "Technical Lead",
+    image: radhika,
     socials: [
       {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/",
-        title: "LinkedIn",
-        icon: "https://img.icons8.com/color/32/linkedin.png",
-      },
-    ],
-  },
-  {
-    name: "Sayandeep Adhikary",
-    title: "CP Lead",
-    image: sayandeep,
-    socials: [
-      {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/",
-        title: "LinkedIn",
-        icon: "https://img.icons8.com/color/32/linkedin.png",
-      },
-    ],
-  },
-  {
-    name: "Siddharth Chaberia",
-    title: "Cloud Lead",
-    image: siddharth,
-    socials: [
-      {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/",
+        url: "https://www.linkedin.com/in/radhika403/",
         title: "LinkedIn",
         icon: "https://img.icons8.com/color/32/linkedin.png",
       },
       {
-        url: "https://twitter.com/",
+        url: "https://twitter.com/Radhika_haha",
         title: "Twitter",
         icon: "https://img.icons8.com/nolan/32/twitterx.png",
       },
     ],
   },
+  
   {
-    name: "Subhajit Hait",
-    title: "App Lead",
-    image: subhajit,
+    name: "Aishvi Guleria",
+    title: "Outreach Lead",
+    image: aishvi,
     socials: [
       {
         url: "https://github.com/",
@@ -111,57 +67,6 @@ export const teamData = [
     name: "Soham Dey",
     title: "Design Lead",
     image: soham,
-    socials: [
-      {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/",
-        title: "LinkedIn",
-        icon: "https://img.icons8.com/color/32/linkedin.png",
-      },
-    ],
-  },
-  {
-    name: "Debojit Saha",
-    title: "Web Lead",
-    image: debojit,
-    socials: [
-      {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/",
-        title: "LinkedIn",
-        icon: "https://img.icons8.com/color/32/linkedin.png",
-      },
-      {
-        url: "https://twitter.com/",
-        title: "Twitter",
-        icon: "https://img.icons8.com/nolan/32/twitterx.png",
-      },
-    ],
-  },
-  {
-    name: "Yash Shaw",
-    title: "PR Lead",
-    image: yash,
-    socials: [
-      {
-        url: "https://www.linkedin.com/in/",
-        title: "LinkedIn",
-        icon: "https://img.icons8.com/color/32/linkedin.png",
-      },
-    ],
-  },
-  {
-    name: "Bipasha Roy",
-    title: "Web Team",
-    image: Bipasha,
     socials: [
       {
         url: "https://github.com/",
