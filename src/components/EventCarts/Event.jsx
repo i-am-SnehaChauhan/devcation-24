@@ -12,7 +12,7 @@ const Event = () =>
     return(
         <>
         <h1 className="skill-head">Mini Events DEVCATION 24</h1>
-        <p className="skill-para"> Explore the world of open-source projects and contribute to building innovative solutions. Elevate your skills while leaving a lasting impact on the world of technology.</p>
+        
         <div className="project-container">
         <Card image={filter} head="FILTER FIESTA" content="Join the Filter Fiesta with GDSC IGDTUW! 🎉 Share your innovative submissions and join us for a fun-filled celebration of digital creativity. The theme is back to the past!" link="https://forms.gle/TxU5zH7wQR9phabP6" event=" FILTER FIESTA: Get ready to unleash your creativity and immerse yourself in the world of AR-VR filters! " date="March 21st-30th, 2024"/>
         <Card image={doodle} head="DOODLE CRAFT" content="Unleash your creativity as we embark on a nostalgic journey with our `Back to the Past Y2K` theme.  🌟 Let your imagination run wild and design a doodle that echoes the essence of the good old days. 🚀 " link="https://forms.gle/u1XkARo2aEHDrCHv6" event="DOODLE CRAFT: Unleash your creativity as we embark on a nostalgic journey with our `Back to the Past Y2K` theme." date="March 21st-30th, 2024"/>

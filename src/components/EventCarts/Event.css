@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cursive+Font&display=swap');
-
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+  
+  /* Define custom font palette values */
+  @font-palette-values {
+    --Grays: 20;
+  }
+  @font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+  }
+  @font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+  }
+  
 .project-container{
     display: flex;
     flex-wrap: wrap;
@@ -12,10 +29,12 @@
     margin-bottom: 2rem;
 }
 .skill-head{
+    
     margin-top: 3rem;
     text-align: center;
     font-size: 4rem;
-    font-family: 'cursive', sans-serif;
+    font-family: 'Rocher', sans-serif;
+    font-palette: --Mint;
     color: #000;
     font-weight: 700;
 }
