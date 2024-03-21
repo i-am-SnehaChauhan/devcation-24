@@ -4,6 +4,7 @@ import logo from "/gdsc-logo.png";
 import { Icon } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 
 const Nav = () => {

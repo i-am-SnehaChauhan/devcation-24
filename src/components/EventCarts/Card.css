@@ -1,6 +1,6 @@
 
 .cardproject{
-    width: 350px;
+    width: 370px;
     height: 400px;
     position: relative;
     overflow: hidden;
@@ -10,7 +10,7 @@
 }
 .cardproject img{
     width: 100%;
-    height: 70%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -38,7 +38,7 @@
     align-items: center;
     transform: translateY(-400px);
     visibility: hidden;
-    background-color: #0b5ed194;
+    background-color: #080e68;
     transition: 1s;
     /* align-items: center;
     justify-content: center; */
@@ -55,7 +55,7 @@
 
 }
 .layer h2{
-    width: 350px;
+    width: 370px;
     text-align: center;
     font-size: 2.2rem;
     display: block;

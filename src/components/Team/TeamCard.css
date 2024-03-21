@@ -54,7 +54,7 @@
     @apply text-white text-left mr-0;
   }
   
-  .avatar {
+  .team-avatar {
     @apply w-32 h-32 rounded-full mr-20;
   }
   

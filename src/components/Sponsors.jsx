@@ -31,10 +31,6 @@ const sponsorsInfoBronze = [
         link: "https://dev.interviewbuddy.in/",
     },
     {
-        image: "sponsors/echo3d.png",
-        link: "https://www.echo3d.com/",
-    },
-    {
         image: "sponsors/rosemedia.jpg",
         link: "https://rosenfeldmedia.com/",
     }
@@ -43,7 +39,7 @@ const sponsorsInfoBronze = [
 
 const SponsorsCard = ({ link,image }) => {
     return (
-        <div className="m-5 cursor-pointer max-w-sm rounded-md  overflow-hidden shadow-lg hover:shadow-xl  transition duration-300">
+        <div className="m-5 cursor-pointer max-w-sm rounded-md  overflow-hidden  hover:shadow-xl  transition duration-300" style={{  boxShadow: "0 4px 6px hsl(210, 50%, 50%)" }}>
             <div className="p-3">
                 <a href={link}><img src={image} alt="sponsors" className="w-2/4 mx-auto" /></a>
                 {/* <div className="font-bold text-xl mb-2">{title}</div>

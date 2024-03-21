@@ -109,14 +109,13 @@
   
   .FooterTextContact {
     margin-bottom: 30px;
-    float: left;
+    
     width: 50%;
     
   }
   
   .FooterTextContact h4 {
     font-size: 18px;
-    margin-bottom: 15px;
     color: black;
   }
   
@@ -133,9 +132,9 @@
   .social-links {
     margin-top: 10px;
     display: flex;
+    align-items: left;
     justify-content: left;
-    margin-left: 0px;
-    float: left;
+    
   }
   
   .social-links a {
@@ -148,15 +147,16 @@
     width: 80%;
   }
   
-  .FooterFormdiv h4 {
-    font-size: 18px;
+  .FooterFormdiv h3 {
+    font-size: 28px;
     margin-bottom: 15px;
-    color: white;
+    font-weight: 700;
+    color: #080e68;
   }
   
   .FooterFormdiv p {
     margin-bottom: 20px;
-    color: gray;
+    color: rgb(110, 94, 94);
   }
   
   .FooterForm input,
@@ -182,6 +182,10 @@
     cursor: pointer;
     text-decoration: none;
   }
+  .FooterFormdiv h6{
+    color:gray;
+  }
+
 @media (max-width: 950px){
     .footerContainer {
         width: 100%;

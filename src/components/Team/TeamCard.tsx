@@ -1,4 +1,4 @@
-import { teamData } from "../../constants/teamData";
+import { teamData } from "./teamData";
 import "./TeamCard.css";
 
 interface SocialMediaLink {
@@ -38,7 +38,7 @@ const SocialMediaLinks = ({ socials }: SocialMediaLinksProps) => (
 const Card = ({ image, name, title, socials }: CardProps) => (
     <div className="card">
         <div className="card-content">
-            <img src={image} alt={name} className="avatar" width={150} height={150} />
+            <img src={image} alt={name} className="team-avatar" />
             <div className="info">
                 <h3 className="font-serif text-2xl">{name}</h3>
                 <h4 style={{ color: "#ffffffef", fontSize: "15px" }}>{title}</h4>
@@ -52,7 +52,7 @@ const CardContainer = ({ teamData }: CardContainerProps) => (
     <div className='floating'>
         <div className="card-container">
             {teamData.map((card, index) => (
-                <Card key={index} {...card} image={card.image.src} />
+                <Card key={index} {...card} image={card.image} />
             ))}
         </div>
     </div>
@@ -60,7 +60,7 @@ const CardContainer = ({ teamData }: CardContainerProps) => (
 
 const TeamCard = () => (
     <div className="team">
-        <h1 className='heading'>Our Team</h1>
+        <h1 className='Rocher-heading'>Our Team</h1>
         <CardContainer teamData={teamData} />
     </div>
 );
