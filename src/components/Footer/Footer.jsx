@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
           <div className="col-xl-4 col-md-4 text-left sm:text-left w-1/3">
             <a
-              href="https://gdsc.community.dev/indira-gandhi-delhi-technical-university-for-women-delhi/"
+              href="https://drive.google.com/file/d/1ZG9OgJfCtQxpymo0c1X2hUqPNCYY0eNa/view"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-link"
@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="FooterTextJoin">
             
             <a
-              href="https://drive.google.com/file/d/1ZG9OgJfCtQxpymo0c1X2hUqPNCYY0eNa/view"
+              href="https://gdsc.community.dev/indira-gandhi-delhi-technical-university-for-women-delhi/"
               target="_blank"
               rel="noopener noreferrer"
             >
