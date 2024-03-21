@@ -4,15 +4,16 @@ const AboutDev = () => {
       <h1 id="aboutdev" className="Rocher-heading" style={{ color: "#2D2B46" }}>
         About Devcation`24
       </h1>
-      <div className="flex mb-40 md:flex-row flex-col">
+      <div className="flex mb-40 md:flex-row flex-col justify-center items-center">
       <img
             src="header.png"
             alt="header"
             className="ml-16 md:w-1/3 md:pr-20 md:mb-0"
+          style={{width:"40%"}}
           />
         <div
             className="border-[#080e68] border-4 text-white ml-64 mt-10 xl:mt-0 xl:translate-y-40 md:w-fit h-fit md:ml-0 md:translate-y-0 md:transform-none md:justify-center md:items-center"
-            // style={{ marginLeft: "100px", width: "50%" }}
+            style={{ marginLeft: "0px",width:"60%"}}
         >
           <div className="flex bg-[#080e68] w-auto h-8 m-2 justify-end items-center text-[#F4E1B9]">
             <div className="border-2 border-[#f1debc] w-6 h-6 mr-1 text-center text-bold">

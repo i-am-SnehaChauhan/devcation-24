@@ -31,10 +31,6 @@ const sponsorsInfoBronze = [
         link: "https://dev.interviewbuddy.in/",
     },
     {
-        image: "sponsors/echo3d.png",
-        link: "https://www.echo3d.com/",
-    },
-    {
         image: "sponsors/rosemedia.jpg",
         link: "https://rosenfeldmedia.com/",
     }
