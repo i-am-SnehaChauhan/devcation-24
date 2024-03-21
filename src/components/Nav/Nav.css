@@ -25,14 +25,12 @@
 }
 
 .logo-container {
-/*   flex: 0 0 auto; */
+  background-color: #f8f9fa;
   height: 50px; 
   width: 200px; 
 }
 
-.logo {
-  height: 75px;
-}
+
 
 
 #navbar ul {
@@ -55,8 +53,10 @@
 }
 
 .social-links {
-/*   margin-left: 70px; */
+  margin-left: 70px;
   align-items: end;
+  justify-content: end;
+  margin-bottom: 8px;
 }
 
 .social-links a {
@@ -156,10 +156,11 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
   .navcontainer {
       width: 100%;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
   }
 
   .NavHamToggel {
@@ -192,7 +193,8 @@
   }
 
   .social-links {
-      margin-left: 2px;
+      margin-left: 7rem;
+      justify-content: end;
   }
 }
 
@@ -200,4 +202,16 @@
   .navcontainer {
       width: 100%;
   }
+}
+
+.cta-link {
+  transition: transform 0.3s;
+}
+
+.single-cta i {
+  color: #080e68;
+  font-size: 30px;
+  float: left;
+  align-items: center;
+  margin-bottom: 13px;
 }
