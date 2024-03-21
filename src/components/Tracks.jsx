@@ -3,7 +3,7 @@ import React from "react";
 const Tracks = () => {
   return (
     <>
-      <h1 id="tracks" className="Rocher-heading" style={{ color: "#2D2B46" }}>
+      <h1 id="tracks" className="Rocher-heading" style={{ color: "#2D2B46", marginBottom: "20px", marginTop: "30px"}}>
         Tracks
       </h1>
       <div className="flex flex-col items-center sm:items-center justify-items-center mt-5">

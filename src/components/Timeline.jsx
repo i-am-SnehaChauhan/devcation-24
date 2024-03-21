@@ -7,7 +7,7 @@ import { BsFillCalendarFill } from "react-icons/bs";
 
 const Prizes = () => {
   return (
-    <div className="mt-4">
+    <div className="mt-10 mb-10">
       <h1 className="Rocher-heading">Timeline</h1>
       <div
         className="prizes"
