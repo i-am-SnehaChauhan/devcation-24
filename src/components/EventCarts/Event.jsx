@@ -11,7 +11,7 @@ const Event = () =>
 {
     return(
         <>
-        <h1 className="skill-head">Mini Events DEVCATION 24</h1>
+        <h1 className="skill-head" id="event">Mini Events DEVCATION 24</h1>
         
         <div className="project-container">
         <Card image={filter} head="FILTER FIESTA" content="Join the Filter Fiesta with GDSC IGDTUW! 🎉 Share your innovative submissions and join us for a fun-filled celebration of digital creativity. The theme is back to the past!" link="https://forms.gle/TxU5zH7wQR9phabP6" event=" FILTER FIESTA: Get ready to unleash your creativity and immerse yourself in the world of AR-VR filters! " date="March 21st-30th, 2024"/>

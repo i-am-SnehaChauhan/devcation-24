@@ -5,7 +5,7 @@ const AboutUS = () => {
 
   return (
     
-    <div className="container">
+    <div className="container" id="about">
        <div className="title">
        <h2 className="about">About GDSC IGDTUW</h2>
           </div>
