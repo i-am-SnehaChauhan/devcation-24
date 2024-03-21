@@ -52,7 +52,7 @@ const CardContainer = ({ teamData }: CardContainerProps) => (
     <div className='floating'>
         <div className="card-container">
             {teamData.map((card, index) => (
-                <Card key={index} {...card} image={card.image.src} />
+                <Card key={index} {...card} image={card.image} />
             ))}
         </div>
     </div>

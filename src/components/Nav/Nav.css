@@ -73,11 +73,6 @@
   font-size: 24px;
 }
 
-.dropdown-toggle::after {
-  content: '\25BC';
-  display: inline-block;
-  margin-left: 0px;
-}
 
 .dropdown-menu {
   display: none;
@@ -118,6 +113,12 @@
 
 .dropdown:hover .dropdown-menu-hidden {
   display: block;
+}
+
+.dropdown-toggle::after {
+  content: '\25BC';
+  /* display: inline-block; */
+  margin-left: 0px;
 }
 
 .nav-link a {

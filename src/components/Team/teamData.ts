@@ -1,25 +1,16 @@
 // @ts-nocheck
-import debojit from "/Team/sneha.jpg";
-import akshita from "/Team/Akshita.png";
-import Bipasha from "/Team/sneha.jpg";
-import Sayan from "/Team/sneha.jpg";
+
 import radhika from "/Team/RadhikaBansal-TechnicalLead.jpeg";
 import soham from "/Team/sneha.jpg";
-import aishvi from "/Team/Aishvi.jpg";
+import aishvi from "../../../public/Team/Aishvi.jpg";
 
-import atif from "/Team/sneha.jpg";
-import nikhil from "/Team/sneha.jpg";
-import soumi from "/Team/sneha.jpg";
-import saransh from "/Team/sneha.jpg";
-import momin from "/Team/sneha.jpg";
-import yash from "/Team/sneha.jpg";
 
 
 export const teamData = [
   {
     name: "Akshita Jha",
     title: "GDSC Lead",
-    image: akshita,
+    image: "Team/Akshita.png",
     socials: [
       {
         url: "https://www.linkedin.com/in/jhaakshita/",
@@ -64,9 +55,9 @@ export const teamData = [
     ],
   },
   {
-    name: "Soham Dey",
-    title: "Design Lead",
-    image: soham,
+    name: "Disha Verma",
+    title: "Event Lead",
+    image: 'Team/Disha Verma- Event Lead.jpg',
     socials: [
       {
         url: "https://github.com/",
@@ -81,9 +72,9 @@ export const teamData = [
     ],
   },
   {
-    name: "Sayan Mukherjee",
-    title: "Web Team",
-    image: Sayan,
+    name: "Surbhi Sharma",
+    title: "Management Lead",
+    image: 'Team/SurbhiSharma - MgmtLead.jpg',
     socials: [
       {
         url: "https://github.com/",
@@ -103,9 +94,9 @@ export const teamData = [
     ],
   },
   {
-    name: "Atif Ali",
-    title: "Web Team",
-    image: atif,
+    name: "Nitya Pasrija",
+    title: "Open Source Lead",
+    image: 'Team/Nitya_Pasrija-OpenSource_Lead.jpg',
     socials: [
       {
         url: "https://github.com/",
@@ -125,9 +116,9 @@ export const teamData = [
     ],
   },
   {
-    name: "Nikhil Mishra",
-    title: "Web Team",
-    image: nikhil,
+    name: "Aaadya Kumar",
+    title: "Media Lead",
+    image: 'Team/Aadya_Kumar-Media Lead.jpg',
     socials: [
       {
         url: "https://github.com/mnik7044",
@@ -146,65 +137,7 @@ export const teamData = [
       },
     ],
   },
-  {
-    name: "Soumi Guria",
-    title: "Web Team",
-    image: soumi,
-    socials: [
-      {
-        url: "https://github.com/soumiguria",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/soumi-guria-8882b224a/",
-        title: "LinkedIn",
-        icon: "https://img.icons8.com/color/32/linkedin.png",
-      },
-      {
-        url: "https://twitter.com/guria_soumi",
-        title: "Twitter",
-        icon: "https://img.icons8.com/nolan/32/twitterx.png",
-      },
-    ],
-  },
-  {
-    name: "S K Momin Ali",
-    title: "Web Team",
-    image: momin,
-    socials: [
-      {
-        url: "https://github.com/skmominali17",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/skmominali17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        title: "LinkedIn",
-        icon: "https://img.icons8.com/color/32/linkedin.png",
-      },
-      {
-        url: "https://x.com/SKMOMINALI20?t=cvolKVCOFA33-O0axTU5Pg&s=09",
-        title: "Twitter",
-        icon: "https://img.icons8.com/nolan/32/twitterx.png",
-      },
-    ],
-  },
-  {
-    name: "Saransh Singh",
-    title: "Web Team",
-    image: saransh,
-    socials: [
-      {
-        url: "https://github.com/saranshsingh214",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/saransh-singh-31a15021b/",
-        title: "LinkedIn",
-        icon: "https://img.icons8.com/color/32/linkedin.png",
-      },
-    ],
-  },
+  
+
+ 
 ];
