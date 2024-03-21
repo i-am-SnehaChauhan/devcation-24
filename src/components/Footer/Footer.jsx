@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="single-cta">
                 <i className="fas fa-book"></i>
                 <div className="cta-text">
-                  <h4> GDSC Chapter</h4>
+                  <h4> GDSC IGDTUW</h4>
                 </div>
               </div>
             </a>
@@ -56,88 +56,42 @@ const Footer = () => {
       <div className="footerContainer">
         <div className="footerText">
           <div className="FooterTextJoin">
-            <h3>
-              JOIN OUR <br /> CHAPTER
-            </h3>
+            
             <a
               href="https://drive.google.com/file/d/1ZG9OgJfCtQxpymo0c1X2hUqPNCYY0eNa/view"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-blue-500 ml-0">Year with GDSC IGDTUW 2023</p>
+              <h3>
+              JOIN OUR <br /> CHAPTER
+            </h3>
             </a>
-            <a
-              href="https://gdsc.community.dev/indira-gandhi-delhi-technical-university-for-women-delhi/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p className="text-blue-500" >Join our chapter here!</p>
-            </a>
-          </div>
+        
 
           <div className="FooterTextContact">
             <h4>Contact us</h4>
-            <ul>
+            <ul >
               <li>
                 <a href="mailto:dscigdtuw@gmail.com">dscigdtuw@gmail.com</a>
               </li>
-              <li>
-                <a href="mailto:gdsc.devcation@gmail.com">
-                  gdsc.devcation@gmail.com
-                </a>
-              </li>
+              
             </ul>
-            <div className="social-links">
-              <a
-                href="https://twitter.com/gdsc_igdtuw"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="twitter"
-              >
-                <Icon className="twitter" color="primary" component={XIcon} />
-              </a>
-              <a
-                href="https://www.facebook.com/GDSCIGDTUW/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="facebook"
-              >
-                <Icon color="primary" component={FacebookIcon} />
-              </a>
-              <a
-                href="https://www.linkedin.com/company/dscigdtuw/mycompany/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="linkedin"
-              >
-                <Icon color="primary" component={LinkedInIcon} />
-              </a>
-              <a
-                href="https://www.instagram.com/gdsc_igdtuw"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="instagram"
-              >
-                <Icon color="primary" component={InstagramIcon} />
-              </a>
-              <a
-                href="https://www.youtube.com/@DSCIGDTUW"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="instagram"
-              >
-                <Icon color="primary" component={YouTubeIcon} />
-              </a>
-            </div>
-          </div>
+            
         </div>
-
+        <div className="social-container"> 
+        <a href="https://twitter.com/gdsc_igdtuw" target="_blank" className="twitter" style={{"marginLeft":"3px"}}> <Icon className="icon"color="primary" component={XIcon} style={{"width":"40px","height":"30px", "color":"#1BB1DC"}} /> </a> 
+        <a href="https://www.facebook.com/GDSCIGDTUW/" target="_blank" className="facebook"style={{"marginLeft":"3px"}}> <Icon className="icon" color="primary" component={FacebookIcon} style={{"width":"30px", "height":"40px","color":"#1BB1DC"}}/> </a> 
+        <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" target="_blank" className="linkedin" style={{"marginLeft":"3px"}}> <Icon color="primary"className="icon" component={LinkedInIcon} style={{"width":"30px", "height":"40px","color":"#1BB1DC"}}/> </a> 
+        <a href="https://www.instagram.com/gdsc_igdtuw" target="_blank" className="instagram" style={{"marginLeft":"3px"}}> <Icon className="icon"color="primary" component={InstagramIcon} style={{"width":"30px", "height":"30px","color":"#1BB1DC"}}/> </a> 
+        <a href="https://www.youtube.com/@DSCIGDTUW" target="_blank" className="instagram" style={{"marginLeft":"3px"}}> <Icon className="icon"color="primary" component={YouTubeIcon} style={{"width":"35px", "height":"30px","color":"#1BB1DC"}}/> </a> 
+        </div>
+        </div>
         <div className="FooterFormdiv">
-          <h4>Send us a message</h4>
-          <p>
+          <h3>Send us a message</h3>
+          <h6>
             Send your message here and we will try to get back to you as soon as
             possible.
-          </p>
+          </h6>
           <form
             className="FooterForm"
             action="https://formspree.io/f/mqkoaydw"
@@ -191,6 +145,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
+    </div>
     </footer>
   );
 };
