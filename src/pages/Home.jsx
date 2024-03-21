@@ -8,8 +8,8 @@ import Sponsors from '../components/Sponsors';
 import AboutUS from '../components/AboutUS'
 import Timeline from '../components/Timeline'
 import FAQs from '../components/Faq/Faq'
-import Statistics from '../components/Statistics/Statistics'
 import AboutDev from '../components/AboutDev'
+import Statistics from '../components/Statistics/Statistics'
 
 
 const Home = () => {
@@ -17,7 +17,10 @@ const Home = () => {
     <>
     <Nav/>
     <Header/>
-    <Statistics/>
+    {/* Hide Statistics on small and medium screens */}
+    <div className="hidden md:block lg:block">
+      <Statistics/>
+    </div>
     <AboutUS/>
     <AboutDev/>
     <Tracks/>
