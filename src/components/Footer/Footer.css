@@ -182,6 +182,10 @@
     cursor: pointer;
     text-decoration: none;
   }
+  .FooterFormdiv h6{
+    color:gray;
+  }
+
 @media (max-width: 950px){
     .footerContainer {
         width: 100%;
