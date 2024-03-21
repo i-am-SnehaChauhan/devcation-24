@@ -48,7 +48,7 @@ const Nav = () => {
         >
           <ul>
             <li>
-              <a className="nav-link scrollto active" href="#header">
+              <a className="nav-link scrollto active" href="/">
                 Home
               </a>
             </li>
@@ -58,7 +58,7 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#why-us">
+              <a className="nav-link scrollto" href="#aboutdev">
                 Devcation`24
               </a>
             </li>
@@ -87,12 +87,12 @@ const Nav = () => {
                 style={{ visibility: dropdownMenuOpen ? "visible" : "hidden" }}
               >
                 <li>
-                  <a className="dropdown-item" href="#portfolio">
+                  <a className="dropdown-item" href="#tracks">
                     Tracks
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#services">
+                  <a className="dropdown-item" href="#prizes">
                     Prizes
                   </a>
                 </li>
@@ -109,7 +109,7 @@ const Nav = () => {
               </ul>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#footer">
+              <a className="nav-link scrollto" href="#contact">
                 Contact
               </a>
             </li>
