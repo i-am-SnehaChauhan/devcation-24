@@ -55,10 +55,11 @@
     text-align: center;
   }
   .button {
-    width: 312px; /* Adjust button width for responsiveness */
+    width: 250px; /* Adjust button width for responsiveness */
     height: 44px;
     background-color: #3770FF;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     border: none;
     color: #ffffff;
     text-size-adjust: 36px;

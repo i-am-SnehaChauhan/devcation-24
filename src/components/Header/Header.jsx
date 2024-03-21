@@ -18,7 +18,7 @@ const Header = () => {
         <h2 className="title textDev">Devcation`24</h2>
         <button className="button " onClick={Join}>
           <img  className="mr-2 w-8 h-8" src="favicon.png" alt="arrow" />
-          Go to Projects</button>
+          Apply with Devfolio</button>
           <div className="social-container"> 
         <a href="https://twitter.com/gdsc_igdtuw" target="_blank" className="twitter" style={{"marginLeft":"3px"}}> <Icon className="icon"color="primary" component={XIcon} style={{"width":"40px","height":"30px", "color":"#1BB1DC"}} /> </a> 
         <a href="https://www.facebook.com/GDSCIGDTUW/" target="_blank" className="facebook"style={{"marginLeft":"3px"}}> <Icon className="icon" color="primary" component={FacebookIcon} style={{"width":"30px", "height":"40px","color":"#1BB1DC"}}/> </a> 
