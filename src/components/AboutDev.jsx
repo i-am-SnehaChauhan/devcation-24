@@ -4,7 +4,7 @@ const AboutDev = () => {
       <h1 id="aboutdev" className="Rocher-heading" style={{ color: "#2D2B46" }}>
         About Devcation`24
       </h1>
-      <div className="flex mb-40 md:flex-row flex-col ">
+      <div className="flex mb-4 md:flex-row flex-col ">
       <img
             src="header.png"
             alt="header"
