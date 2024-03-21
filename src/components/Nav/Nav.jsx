@@ -35,7 +35,7 @@ const Nav = () => {
     return (
         <header id="navheader" className={`fixed-top ${scrollPosition > 100 ? 'black-bg' : ''}`}>
             <div className="navcontainer">
-                <a href='/' className="logo-container"><img src={logo} alt="Logo" className="logo me-auto" style={{ "height": "110px", "width": "50px"}} /></a>
+                <a href='/' className="logo-container"><img src="gdsc-logo.png" alt="Logo" className="logo me-auto" style={{ "height": "110px", "width": "50px"}} /></a>
                 <nav id="navbar" className={`navbar ${dropdownNav ? 'dropdown-nav' : 'nav-hide'}`}>
                     <ul>
                         <li><a className="nav-link scrollto active" href="#header">Home</a></li>
@@ -44,7 +44,7 @@ const Nav = () => {
                         <li><a className="nav-link scrollto" href="#features">Timeline</a></li>
                         <li><a className="nav-link scrollto" href="/event">Events</a></li>
                         <li className="nav-link dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-                            <a className="dropdown-toggle" href="#" role="button" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+                            <a className="dropdown-toggle" href="#" role="button" >
                                 More
                             </a>
                             <ul className={`dropdown-menu ${dropdownMenuOpen ? 'dropdown-menu-show' : 'menu-hide'}`} style={{ visibility: dropdownMenuOpen ? 'visible' : 'hidden' }}>
@@ -56,9 +56,7 @@ const Nav = () => {
                         </li>
                         <li><a className="nav-link scrollto" href="#footer">Contact</a></li>
                     </ul>
-                    <div className='NavHamToggel'>
-                        <Icon className="NavHam" component={dropdownNav ? CloseIcon : MenuIcon} style={{ "color": "black" }} onClick={() => setDropdownNav(!dropdownNav)} />
-                    </div>
+                    
                 </nav>
                 <div className="social-links">
                     <a href="https://twitter.com/gdsc_igdtuw" target="_blank" className="twitter"> <Icon color="primary" component={XIcon} style={{ "width": "25px", "color": "#1BB1DC" }} /> </a>
@@ -66,6 +64,9 @@ const Nav = () => {
                     <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" target="_blank" className="linkedin"> <Icon color="primary" component={LinkedInIcon} style={{ "width": "25px", "color": "#1BB1DC" }} /> </a>
                     <a href="https://www.instagram.com/gdsc_igdtuw" target="_blank" className="instagram"> <Icon color="primary" component={InstagramIcon} style={{ "width": "25px", "color": "#1BB1DC" }} /> </a>
                     <a href="https://www.youtube.com/@DSCIGDTUW" target="_blank" className="instagram"> <Icon color="primary" component={YouTubeIcon} style={{ "width": "30px", "color": "#1BB1DC" }} /> </a>
+                </div>
+                <div className='NavHamToggel'>
+                        <Icon className="NavHam" component={dropdownNav ? CloseIcon : MenuIcon} style={{ "color": "black" }} onClick={() => setDropdownNav(!dropdownNav)} />
                 </div>
             </div>
         </header>
