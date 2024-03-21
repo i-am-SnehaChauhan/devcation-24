@@ -28,12 +28,8 @@ export const teamData = [
         url: "https://www.linkedin.com/in/radhika403/",
         title: "LinkedIn",
         icon: "https://img.icons8.com/color/32/linkedin.png",
-      },
-      {
-        url: "https://twitter.com/Radhika_haha",
-        title: "Twitter",
-        icon: "https://img.icons8.com/nolan/32/twitterx.png",
-      },
+      }
+      
     ],
   },
   
@@ -42,13 +38,9 @@ export const teamData = [
     title: "Outreach Lead",
     image: aishvi,
     socials: [
+      
       {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "http://www.linkedin.com/in/",
+        url: "https://www.linkedin.com/in/aishvi-guleria-09a04222b/",
         title: "LinkedIn",
         icon: "https://img.icons8.com/color/32/linkedin.png",
       },
@@ -59,13 +51,9 @@ export const teamData = [
     title: "Event Lead",
     image: 'Team/Disha Verma- Event Lead.jpg',
     socials: [
+      
       {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/",
+        url: "https://www.linkedin.com/in/disha-verma-415435231/",
         title: "LinkedIn",
         icon: "https://img.icons8.com/color/32/linkedin.png",
       },
@@ -76,21 +64,13 @@ export const teamData = [
     title: "Management Lead",
     image: 'Team/SurbhiSharma - MgmtLead.jpg',
     socials: [
+      
       {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/",
+        url: "https://www.linkedin.com/in/surbhi-sharma-5b4140245/",
         title: "LinkedIn",
         icon: "https://img.icons8.com/color/32/linkedin.png",
       },
-      {
-        url: "https://twitter.com/itz_sayan_03",
-        title: "Twitter",
-        icon: "https://img.icons8.com/nolan/32/twitterx.png",
-      },
+      
     ],
   },
   {
@@ -98,21 +78,13 @@ export const teamData = [
     title: "Open Source Lead",
     image: 'Team/Nitya_Pasrija-OpenSource_Lead.jpg',
     socials: [
+      
       {
-        url: "https://github.com/",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/atif-ali-904882245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        url: "https://www.linkedin.com/in/nitya-pasrija/",
         title: "LinkedIn",
         icon: "https://img.icons8.com/color/32/linkedin.png",
       },
-      {
-        url: "https://x.com/atifxs?t=dagzSPGVr28WagFQHE92fvfbQf6tzbtd0zexT9iIMHg&s=09",
-        title: "Twitter",
-        icon: "https://img.icons8.com/nolan/32/twitterx.png",
-      },
+
     ],
   },
   {
@@ -120,21 +92,13 @@ export const teamData = [
     title: "Media Lead",
     image: 'Team/Aadya_Kumar-Media Lead.jpg',
     socials: [
+
       {
-        url: "https://github.com/mnik7044",
-        title: "GitHub",
-        icon: "https://img.icons8.com/3d-fluency/32/github.png",
-      },
-      {
-        url: "https://www.linkedin.com/in/nikhil-mishra-8a6710244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        url: "https://www.linkedin.com/in/aadya-kumar-a00718248/",
         title: "LinkedIn",
         icon: "https://img.icons8.com/color/32/linkedin.png",
       },
-      {
-        url: "https://x.com/nikktwts",
-        title: "Twitter",
-        icon: "https://img.icons8.com/nolan/32/twitterx.png",
-      },
+
     ],
   },
   
