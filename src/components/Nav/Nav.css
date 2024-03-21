@@ -156,10 +156,11 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
   .navcontainer {
       width: 100%;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
   }
 
   .NavHamToggel {
