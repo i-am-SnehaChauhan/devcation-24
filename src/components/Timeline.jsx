@@ -116,13 +116,13 @@ const Prizes = () => {
               📅 Final pitching and closing ceremony. 📅
             </h2>
             {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
-            <p>
+            <h6>
               <ul className="prizeList">
                 <li className="text-left">
                   Don`t miss out on this memorable event!
                 </li>
               </ul>
-            </p>
+            </h6>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
