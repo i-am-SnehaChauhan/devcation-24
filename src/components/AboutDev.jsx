@@ -4,7 +4,7 @@ const AboutDev = () => {
       <h1 id="aboutdev" className="Rocher-heading" style={{ color: "#2D2B46" }}>
         About Devcation`24
       </h1>
-      <div className="flex mb-40 md:flex-row flex-col justify-center items-center">
+      <div className="flex mb-40 md:flex-row flex-col ">
       <img
             src="header.png"
             alt="header"
@@ -26,7 +26,6 @@ const AboutDev = () => {
             Developer Student Clubs - Indira Gandhi Delhi Technical University
             for Women that celebrates diversity in the TechForGood Domain.
             During the week, we have the Devcation`24 hackathon: Hack 'N' Solve.
-            <br></br>
             The tech fiesta doesn`t end here, we have four mini-events: Filter
             Fiesta, Gemini Genesis, Doodle Craft and TechScribe. These events
             are designed to spark your creativity, encourage innovative
