@@ -35,7 +35,7 @@ const Nav = () => {
     return (
         <header id="navheader" className={`fixed-top ${scrollPosition > 100 ? 'black-bg' : ''}`}>
             <div className="navcontainer">
-                <a href='/' className="logo-container"><img src="gdsc-logo.png" alt="Logo" className="logo me-auto" style={{ "height": "110px", "width": "50px"}} /></a>
+                <a href='/' className="logo-container"><img src="gdsc-logo.png" alt="Logo" className="logoa " style={{ "height": "70px" , "width":"100%"}} /></a>
                 <nav id="navbar" className={`navbar ${dropdownNav ? 'dropdown-nav' : 'nav-hide'}`}>
                     <ul>
                         <li><a className="nav-link scrollto active" href="#header">Home</a></li>
