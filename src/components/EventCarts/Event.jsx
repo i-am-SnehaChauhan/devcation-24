@@ -4,15 +4,14 @@ import filter from "/Filter.png";
 import doodle from "/Doodlecraft.png";
 import techscribe from "/Techscribe.png";
 import gemini from "/Gemini.png";
-
-
+import hacknsolve from "/Hacknsolve.png";
 
 const Event = () => 
 {
     return(
         <>
         <h1 className="skill-head" id="event">Events DEVCATION 24</h1>
-        <h4 className="skill-subhead">Hack 'N' Solve too</h4>
+        {/* <h4 className="skill-subhead">tentative dates for all are 21st March to 30th March</h4> */}
         
         <div className="project-container">
         <Card image={filter} head="FILTER FIESTA" content="Join the Filter Fiesta with GDSC IGDTUW! 🎉 Share your innovative submissions and join us for a fun-filled celebration of digital creativity. The theme is back to the past!" link="https://forms.gle/TxU5zH7wQR9phabP6" event=" FILTER FIESTA: Get ready to unleash your creativity and immerse yourself in the world of AR-VR filters! " date="March 21st-30th, 2024"/>
@@ -21,6 +20,7 @@ const Event = () =>
         </div>
         <div className="project-container">
         <Card image={gemini} head="GEMINI GENESIS" content="We invite you to redesign the given interface using the latest technology stacks of your choice via prompting (from HTML CSS to Tailwind), but deploy it on Replit only. 🌟" link="https://forms.gle/1e6SQcpTDU4bZv5TA" event="GEMINI GENESIS: Exciting event where your creativity and expertise can shape the future of Gemini AI!" date="March 21st-30th, 2024"/>
+        <Card image={hacknsolve} head="Hack 'N' Solve" content="Join the excitement of Hack 'N' Solve at Devcation'24! Dive into a dynamic hackathon hosted by Google Developer Student Clubs - IGDTUW, where innovation meets diversity in TechForGood." link="https://devcation-24.devfolio.co/overview" event="Hack 'N' Solve: Exciting event where your creativity and expertise can shape the future of Gemini AI!" date="March 21st-30th, 2024"/>
         </div>
         </>
     )
