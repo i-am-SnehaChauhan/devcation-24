@@ -36,7 +36,7 @@ const Prizes = () => {
             {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
             <h6>
               <ul className="prizeList">
-                <li className="text-left">
+                <li className="text-left" style={{ color: '#404040' }}>
                   Submission for all Mini Events and the Registration for the
                   Hackathon Starts
                 </li>
@@ -56,7 +56,7 @@ const Prizes = () => {
             {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
             <h6>
               <ul className="prizeList">
-                <li className="text-left">
+                <li className="text-left" style={{ color: '#404040' }}>
                   Get ready to code, create, and innovate!{" "}
                 </li>
               </ul>
@@ -77,7 +77,7 @@ const Prizes = () => {
             {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
             <h6>
               <ul className="prizeList">
-                <li className="text-left">
+                <li className="text-left" style={{ color: '#404040' }}>
                   The deadline for submissions for all mini events is
                   approaching fast.
                 </li>
@@ -97,7 +97,7 @@ const Prizes = () => {
             {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
             <h6>
               <ul className="prizeList">
-                <li className="text-left">
+                <li className="text-left" style={{ color: '#404040' }}>
                   Make sure to wrap up your projects and prepare for submission.
                 </li>
               </ul>
@@ -118,7 +118,7 @@ const Prizes = () => {
             {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
             <h6>
               <ul className="prizeList">
-                <li className="text-left">
+                <li className="text-left" style={{ color: '#404040' }}>
                   Don`t miss out on this memorable event!
                 </li>
               </ul>
