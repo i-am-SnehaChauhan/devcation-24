@@ -79,7 +79,7 @@ const FAQs = () => {
     }
 
     return (
-        <div className="container">
+        <div className="container faqContainer">
             <div className="question-container">
                 <h1 className="Rocher-heading">Frequently Asked Questions</h1>
                 {faqs.map((faq, index) => (

@@ -142,13 +142,24 @@ a, a:hover, a:focus {
 .rc-collapse.show {
     height: auto;
 }
+.faqContainer {
+    min-width: 100%;
+    padding: 0 70px;
+}
+@media (max-width: 1024px){
+    .faqContainer {
+        min-width: 100%;
+        padding: 0 50px;
+    }
+}
 
 @media screen and (max-width: 768px) {
-    .question-container {
-        width: 80%; /* Adjust width for smaller screens */
+    .faqContainer {
+        min-width: 100%; /* Adjust width for smaller screens */
+        padding:0 30px;
     }
-    .headline {
+    .question-container h1 {
         
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }
