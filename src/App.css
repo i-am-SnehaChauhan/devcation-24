@@ -19,6 +19,21 @@
   font-size:80px;
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  .container{
+    margin-left: 4rem;
+  }
+  .about{
+    margin-left: 20px;
+  }
+  .screen-container{
+    margin-left: 20px;
+  }
+  .cat{
+    margin-left: 20px;
+  
+  }
+}
 .logo {
   height: 6em;
   padding: 1.5em;

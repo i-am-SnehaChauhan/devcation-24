@@ -1,7 +1,6 @@
 import aboutGdsc from "../../public/about.jpg";
 
 const AboutUS = () => {
-  const Join = () => {};
 
   return (
     <div className="container" id="about">
