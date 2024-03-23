@@ -82,9 +82,8 @@ const Nav = () => {
                 More
               </a>
               <ul
-                className={`dropdown-menu ${
-                  dropdownMenuOpen ? "dropdown-menu-show" : "menu-hide"
-                }`}
+                className={`dropdown-menu ${dropdownMenuOpen ? "dropdown-menu-show" : "menu-hide"
+                  }`}
                 style={{ visibility: dropdownMenuOpen ? "visible" : "hidden" }}
               >
                 <li>
@@ -116,30 +115,32 @@ const Nav = () => {
             </li>
           </ul>
         </nav>
-        <div className="social-links">
-          <a
-            href="https://discord.gg/5fz4rza3cn"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cta-link"
-          >
-            <div className="single-cta">
-              <i className="fab fa-discord"></i>
-            </div>
-          </a>
-          {/* <a href="https://twitter.com/gdsc_igdtuw" target="_blank" className="twitter"> <Icon color="primary" component={XIcon} style={{ "width": "25px", "color": "#1BB1DC" }} /> </a>
+        <div className="Hambu-Social">
+          <div className="social-links">
+            <a
+              href="https://discord.gg/5fz4rza3cn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-link"
+            >
+              <div className="single-cta">
+                <i className="fab fa-discord"></i>
+              </div>
+            </a>
+            {/* <a href="https://twitter.com/gdsc_igdtuw" target="_blank" className="twitter"> <Icon color="primary" component={XIcon} style={{ "width": "25px", "color": "#1BB1DC" }} /> </a>
                     <a href="https://www.facebook.com/GDSCIGDTUW/" target="_blank" className="facebook"> <Icon color="primary" component={FacebookIcon} style={{ "width": "26px", "color": "#1BB1DC" }} /> </a>
                     <a href="https://www.linkedin.com/company/dscigdtuw/mycompany/" target="_blank" className="linkedin"> <Icon color="primary" component={LinkedInIcon} style={{ "width": "25px", "color": "#1BB1DC" }} /> </a>
                     <a href="https://www.instagram.com/gdsc_igdtuw" target="_blank" className="instagram"> <Icon color="primary" component={InstagramIcon} style={{ "width": "25px", "color": "#1BB1DC" }} /> </a>
                     <a href="https://www.youtube.com/@DSCIGDTUW" target="_blank" className="instagram"> <Icon color="primary" component={YouTubeIcon} style={{ "width": "30px", "color": "#1BB1DC" }} /> </a> */}
-        </div>
-        <div className="NavHamToggel">
-          <Icon
-            className="NavHam"
-            component={dropdownNav ? CloseIcon : MenuIcon}
-            style={{ color: "black" }}
-            onClick={() => setDropdownNav(!dropdownNav)}
-          />
+          </div>
+          <div className="NavHamToggel">
+            <Icon
+              className="NavHam"
+              component={dropdownNav ? CloseIcon : MenuIcon}
+              style={{ color: "black" }}
+              onClick={() => setDropdownNav(!dropdownNav)}
+            />
+          </div>
         </div>
       </div>
     </header>
