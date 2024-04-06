@@ -11,6 +11,11 @@ const judgeDetails = {
     name: "Tushar Gupta",
     linkedin: "https://www.linkedin.com/in/tusharguptag/",
   },
+  judge3: {
+    image: "judges/piyush.jpg",
+    name: "Piyush Khurana",
+    linkedin: "https://www.linkedin.com/in/piyush-khurana-dev",
+  }
 };
 
 const Judges = () => {
