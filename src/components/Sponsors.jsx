@@ -33,10 +33,22 @@ const sponsorsInfoBronze = [
     {
         image: "sponsors/rosemedia.jpg",
         link: "https://rosenfeldmedia.com/",
-    }
+    },
+    {
+        image: "sponsors/interview_cake.png",
+        link: "https://www.interviewcake.com/",
+    },
+
 
 ];
 
+const sponsorsCertificate = [
+    {
+        image: "sponsors/cerificate_partner.jpeg",
+        link: "https://givemycertificate.com/",
+    }
+
+];
 const SponsorsCard = ({ link,image }) => {
     return (
         <div className="m-5 cursor-pointer max-w-sm rounded-md  overflow-hidden  hover:shadow-xl  transition duration-300" style={{  boxShadow: "0 4px 6px hsl(210, 50%, 50%)" }}>
@@ -68,6 +80,12 @@ const Sponsors = () => {
         <h2 className="mt-10 font-bold text-3xl" style={{color:'#2D2B46'}}>Bronze </h2>
         <div className="flex flex-wrap justify-center">
             {sponsorsInfoBronze.map((link, index) => (
+                <SponsorsCard key={index} {...link} />
+            ))}
+        </div>
+        <h2 className="mt-10 font-bold text-3xl" style={{color:'#2D2B46'}}>Certificate Partner </h2>
+        <div className="flex flex-wrap justify-center">
+            {sponsorsCertificate.map((link, index) => (
                 <SponsorsCard key={index} {...link} />
             ))}
         </div>
