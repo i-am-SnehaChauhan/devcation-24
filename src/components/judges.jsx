@@ -7,9 +7,9 @@ const judgeDetails = {
     linkedin: "https://www.linkedin.com/in/virendra-sharma-214bb533/",
   },
   judge2: {
-    image: "/judges/virendra.png",
-    name: "Tushar Gupta",
-    linkedin: "https://www.linkedin.com/in/tusharguptag/",
+    image: "/judges/supriya.jpg",
+    name: "Supriya Purohit",
+    linkedin: "https://www.linkedin.com/in/supriyapurohit27/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ",
   },
   judge3: {
     image: "judges/piyush.jpg",
@@ -25,11 +25,11 @@ const Judges = () => {
         Judges
       </h1>
       <div className=" flex justify-center mt-5">
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
           {Object.keys(judgeDetails).map((judge) => (
             <div className="relative" key={judge}>
               <img
-                className="w-80 h-70 object-cover p-2"
+                className="w-80 object-cover p-2"
                 src={judgeDetails[judge].image}
                 alt={judgeDetails[judge].name}
               />
